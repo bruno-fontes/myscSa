@@ -17,5 +17,11 @@ pAtividades.innerHTML = ""
 if (localStorage.getItem("atividades") != null)
 atividades = JSON.parse (localStorage.getItem("atividades"))
 atividades.forEach(atividade =>{
-    pAtividades.innerHTML += atividade[0] + ":" + atividade[1] + "<br>"
+    pAtividades.innerHTML += atividade[0] + ":" + atividade[1] + "<br>" + "<br>"
 });}
+
+
+function deletarTudo() {
+    localStorage.clear();
+    
+}

@@ -59,8 +59,19 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.form{
-    width: 25%;
+.btn-deletar{
+    background-color: rgb(153, 47, 47);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid rgb(88, 11, 11);
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+    margin-left: 10px;
+    
+
 }
 
 input{
@@ -78,13 +89,7 @@ input{
     
 }
 
-.input-controler input:focus{
-    background-color: #ede5f3;
-}    
 
-.input-controler input::placeholder{
-    color: #5b08a3;
-}
 
 .botao{
     width: 50%;
@@ -116,10 +121,7 @@ input{
     padding-right: 26px;
     }
 
-.btn:hover{
-    background-color: #a157e2; 
-    color: #410575;
-}
+
 
 @media screen and (max-width:500px){
     nav{
@@ -141,5 +143,5 @@ input{
 }
 #atividades{
     font-family: sans-serif;
-    padding-left: 45px;
+    padding-left: 50px;
 }
