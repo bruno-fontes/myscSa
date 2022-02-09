@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+    padding: 10px;
+    background-color: rgb(34, 109, 34);
+    
+    color: #fff;
+    padding-left: 580px;
+}
+h1{
+    display: flex;
+}
+.nav-item{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.addAttContainer{
+    background-color: rgb(123, 255, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: small;
+    
+    
+}
+
+.nav-item a:hover{
+    color: aqua;
+}
+
+.container{
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 5px solid green;
+    border-radius: 10px;
+    margin-left: 520px;
+}
+#h3Container{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 0px;
+    padding: 3px;
+    
+    
+    
+}
+#atividades{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    width: 25%;
+}
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 90%;
+    padding: 15px;
+    border: 2px solid green;
+    border-radius: 5px;
+    outline: none;
+    text-align: center;
+    
+}
+
+.input-controler input:focus{
+    background-color: #ede5f3;
+}    
+
+.input-controler input::placeholder{
+    color: #5b08a3;
+}
+
+.botao{
+    width: 50%;
+    background-color: rgb(123, 255, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+    cursor: pointer;
+    font-size: medium;
+}
+.botao:hover{
+    background-color:rgb(13, 146, 13) ;
+}
+.aSegundaPagina{
+   
+    background-color: rgb(123, 255, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+    cursor: pointer;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: medium;
+    padding-left: 26px;
+    padding-right: 26px;
+    }
+
+.btn:hover{
+    background-color: #a157e2; 
+    color: #410575;
+}
+
+@media screen and (max-width:500px){
+    nav{
+        display: block;
+    }
+
+    .nav-item{
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container{
+        padding: 10px;
+    }
+
+    .form{
+        width: 85%;
+    }
+}
+#atividades{
+    font-family: sans-serif;
+    padding-left: 45px;
+}
