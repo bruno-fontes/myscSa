@@ -34,8 +34,14 @@ h1{
     
     
 }
+.addAttContainer:hover{
+    background-color:rgb(13, 146, 13) ;
+}
 body{
  background-image: url(../img/imagemtop.jpg);
+}
+#h3Login{
+    padding-left: 50px;
 }
 
 .container{
@@ -107,8 +113,25 @@ input{
     cursor: pointer;
     font-size: medium;
 }
+.btn-logar{
+    width: 40%;
+    background-color: rgb(123, 255, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+    cursor: pointer;
+    font-size: medium;
+}
+.btn-logar:hover{
+    background-color:rgb(13, 146, 13) ;
+}
 .botao:hover{
     background-color:rgb(13, 146, 13) ;
+}
+#h3CriarConta{
+    margin-left: 25px;
 }
 .aSegundaPagina{
    
@@ -125,7 +148,44 @@ input{
     padding-left: 26px;
     padding-right: 26px;
     }
+.aSegundaPagina:hover{
+    background-color:rgb(13, 146, 13) ;
 
+}
+.btn-criar-conta{
+   
+    background-color: rgb(123, 255, 0);
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: 3px solid green;
+    cursor: pointer;
+    margin-left: 29px;
+    font-size: medium;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .btn-criar-conta:hover{
+        background-color:rgb(13, 146, 13) ;
+    }
+    .btn-criar-conta2{
+   
+        background-color: rgb(123, 255, 0);
+        color: #fff;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        border: 3px solid green;
+        cursor: pointer;
+        margin-left: 67px;
+        font-size: medium;
+        padding-left: 20px;
+        padding-right: 20px;
+        }
+        .btn-criar-conta2:hover{
+            background-color:rgb(13, 146, 13) ;
+        }
 
 
 @media screen and (max-width:500px){

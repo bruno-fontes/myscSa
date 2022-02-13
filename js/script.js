@@ -28,3 +28,12 @@ function deletarTudo() {
     alert("Atividades removidas.")
     location.reload()
 }
+function criarConta(){
+    window.location.href="./index.html"
+    //fazer funçao
+    
+}
+function logar() {
+    window.location.href="./index.html"
+    //fazer funçao   
+}
