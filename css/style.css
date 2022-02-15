@@ -12,13 +12,26 @@ header{
     padding-left: 580px;
 }
 .nav-container{
-    padding: 0 5px;
     background-color: rgb(34, 109, 34);
-    margin-top: 0;
     height: 90px;
+    display: flex;
+    justify-content: center;
+    margin-left: -95px;
+
 
     
 
+}
+.texto{
+    border: 5px solid rgb(21, 72, 165);
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-left: 495px;
+   
 }
 .lista-nav{
     list-style: none;
@@ -63,9 +76,9 @@ h1{
 .addAttContainer:hover{
     background-color:rgb(13, 146, 13) ;
 }
-/*body{
+body{
  background-image: url(../img/imagemtop.jpg);
-}*/
+}
 #h3Login{
     padding-left: 50px;
 }
