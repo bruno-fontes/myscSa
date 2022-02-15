@@ -29,11 +29,11 @@ function deletarTudo() {
     location.reload()
 }
 function criarConta(){
-    window.location.href="./index.html"
+    window.location.href="./criarconta.html"
     //fazer funçao
     
 }
 function logar() {
-    window.location.href="./index.html"
+    window.location.href="./ListaAtividade.html"
     //fazer funçao   
 }
