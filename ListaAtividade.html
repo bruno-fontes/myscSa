@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,49 +8,41 @@
     <title>MYSC</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
- 
-    
+
+
     <div id="pagina">
         <div class="nav-container">
             <h1 class="h-logo">MySchool</h1>
             <ul class="lista-nav">
-                <li><a class ='texto-link' href="index.html">Home</a></li>
-                <li><a class ='texto-link' href="ListaAtividade.html">Atividades</a></li>
-                <li><a class ='texto-link' href="criarconta.html">Login</a></li>
+                <li><a class='texto-link' href="index.html">Home</a></li>
+                <li><a class='texto-link' href="ListaAtividade.html">Atividades</a></li>
+                <li><a class='texto-link' href="criarconta.html">Login</a></li>
             </ul>
         </div>
-   <div class="container">
-       <h3 id="h3Container">Suas Atividades:</h3>
-       <div class="paragrafo">
-        <p id="atividades"></p>
+        <div class="container">
+            <h3 id="h3Container">Suas Atividades:</h3>
+            <div class="paragrafo">
+                <p id="atividades"></p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <div class="btns-div">
+                <a href="paginaAdicionarAtividades.html" class="addAttContainer">Adicionar Atividade</a>
+                <button class="btn-deletar" onclick="deletarTudo()">Excluir Todas</button>
+            </div>
+
+            <script src="js/script.js"></script>
+
+            <script>lista()</script>
+
         </div>
-       <br>
-       <br>
-       <br>
-        <a href="paginaAdicionarAtividades.html" class="addAttContainer">Adicionar Atividade</a>
-        <button class="btn-deletar" onclick="deletarTudo()">Excluir Todas</button>
-        
+        <footer>
 
-        <script src="js/script.js"></script>
-        
-        <script>lista()</script>
-
-    </div>
-    <footer>
-
-    </footer>
+        </footer>
     </div>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
-
