@@ -21,7 +21,7 @@
                 <li><a class='texto-link' href="criarconta.html">Login</a></li>
             </ul>
         </div>
-        <div class="container">
+        <div class="container-lista" id="container-lista">
             <h3 id="h3Container">Suas Atividades:</h3>
             <div class="paragrafo">
                 <p id="atividades"></p>
@@ -30,10 +30,23 @@
             <br>
             <br>
             <div class="btns-div">
-                <a href="paginaAdicionarAtividades.html" class="addAttContainer">Adicionar Atividade</a>
-                <button class="btn-deletar" onclick="deletarTudo()">Excluir Todas</button>
+                <button class="btn-deletar" onclick="add()">Adicionar</button>
+                <button class="btn-deletar" onclick="deletarTudo()">Excluir</button>
+            </div>
+        </div>
+        <div class='adicionar-atividades' id="adicionar-atividades">
+                
+            <div class="container-adicionar">
+                <h3 id="h3Container">Adicione sua Atividade</h3>
+                <input type="date" id="data" class="input-data" >
+                <input type="text" id="atividade" placeholder="Atividade">
+                
+                    <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
             </div>
 
+        </div>
+
+           
             <script src="js/script.js"></script>
 
             <script>lista()</script>

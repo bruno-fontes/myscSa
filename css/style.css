@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -8,7 +9,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url('./img/pexels-cup-of-couple-6177610.jpg');
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(218,216,216,1) 0%, rgba(194,255,250,1) 50%, 
+rgba(218,216,216,1) 100%);
     background-size: 100%;
     background-position: 80%;
 
@@ -72,6 +75,10 @@ li{
     overflow:hidden;
     
 }
+.p-home{
+    font-size: 120%;
+    font-family: Noto Sans Mono;
+}
 
 
 
@@ -91,7 +98,18 @@ li{
     padding-left: 50px;
 }
 
-.container{
+.container-cadastro{
+   display: none;
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rgba(194,255,250,1);
+    border-radius: 10px;
+    margin-left: 37.5%;
+    background-color: #fff;
+    
+}
+.container-lista{
    
     margin-top: 50px;
     width: 20%;
@@ -99,9 +117,49 @@ li{
     border: 3px solid rgba(194,255,250,1);
     border-radius: 10px;
     margin-left: 37.5%;
-    
     background-color: #fff;
     
+}
+.container-adicionar{
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rgba(194,255,250,1);
+    border-radius: 10px;
+    margin-left: 37.5%;
+    background-color: #fff;
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-adicionar{
+    background: white;
+    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 40%;
+    cursor: pointer; 
+    font-size: medium;
+    padding: 10px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.container-login{
+
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rgba(194,255,250,1);
+    border-radius: 10px;
+    margin-left: 37.5%;
+    background-color: #fff;
+            
 }
 #h3Container{
     text-align: center;
@@ -153,10 +211,13 @@ li{
     width: 40%;
     cursor: pointer; 
     font-size: medium;
+    padding: 10px;
     
     
 }
-    
+.adicionar-atividades{
+    display: none;
+}    
     
 
 
@@ -181,7 +242,7 @@ input{
     width: 40%;
     margin-left: 30%;
     background: rgb(194,255,250);
-background: linear-gradient(90deg, rgba(194,255,250,1) 0%, rgba(255,255,255,1) 100%);   
+    background: linear-gradient(90deg, rgba(194,255,250,1) 0%, rgba(255,255,255,1) 100%);   
     color: black;
     padding: 10px;  
     font-weight: bold;

@@ -11,7 +11,7 @@ function addAtividade() {
     dataAtividade.value = ""
     atividade.value = ""
     alert("Atividade adicionada.")
-    window.location.href="./index.html"
+    // window.location.reload();
 }
 function lista(){
 let pAtividades = document.getElementById('atividades')
@@ -36,4 +36,19 @@ function criarConta(){
 function logar() {
     window.location.href="./ListaAtividade.html"
     //fazer funçao   
+}
+function add() {
+    let divMostraAtividades = document.getElementById('container-lista');
+    let divListaDeAtividades = document.getElementById('adicionar-atividades');
+    divMostraAtividades.style.display = 'none';
+    divListaDeAtividades.style.display = 'block';
+
+    
+}
+
+
+function dividirDate() {
+    const iDate = document.getElementsById("data");
+
+    iDate
 }
