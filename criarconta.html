@@ -20,18 +20,18 @@
                 <li><a class='texto-link' href="criarconta.html">Login</a></li>
             </ul>
         </div>
-        <div class="container-login">
+        <div class="container-login" id="container-login">
             <h3 id="h3Container">Login</h3>
             <input type="text" id="email-login" placeholder="Email"><br>
             <input type="password" id="senha-login" placeholder="Senha"><br>
             <div class="btns-div-3">
-                <button class="btn-logar" onclick="logar">Logar</button>
-                <button class="btn-já-possuo-conta" onclick="irCadastro">Já Possuo conta</button>]
+                <button class="btn-logar" onclick="logar()">Logar</button>
+                <button class="btn-nao-possuo-conta" onclick="irCadastro()">Não possuo conta</button>
                 
 
             </div>
         </div>
-        <div class="container-cadastro">
+        <div class="container-cadastro" id="container-cadastro">
             <h3 id="h3Container">Cadastrar-se</h3>
             <input type="text" id="email" placeholder="Email"><br>
             <input type="text" id="nome" placeholder="Nome"><br>
@@ -40,7 +40,7 @@
             <br><br><br>
             <div class="btns-div-2">
                 <button class="btn-criar-conta2" onclick="criarConta()">Criar conta</button>
-                <a class="btn-ja-possuo-conta" href="fazer">Já possuo conta</a>
+               
             </div>
             
             <script src="js/script.js"></script>

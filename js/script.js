@@ -47,8 +47,9 @@ function add() {
 }
 
 
-function dividirDate() {
-    const iDate = document.getElementsById("data");
-
-    iDate
+function irCadastro() {
+let divLogin = document.getElementById('container-login')
+let divCadastro = document.getElementById('container-cadastro')
+divLogin.style.display = 'none'
+divCadastro.style.display = 'block'    
 }
