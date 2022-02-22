@@ -29,7 +29,7 @@ header{
     height: 120px;
     display: flex;
     justify-content:space-between;
-    border-bottom: 1px rgb(45, 119, 255) solid;
+    border-bottom: 1px gray solid;
 }
 .h-logo{
     color: rgb(19, 19, 19);
@@ -49,16 +49,99 @@ li{
     margin-left: 20px;
     
 }
-.texto-link{
+.texto-link-1{
     font-weight:bold;
-    color: rgb(19, 19, 19);
+    color: rgb(101, 196, 188);
     font-size: 23px;
     text-decoration: none;
     
 }
-.texto-link:hover{
-    color: rgb(82, 73, 73);
+.texto-link-1:hover{
+    color: rgb(101, 196, 188);
 }
+.texto-link-2{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-2:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-3{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-3:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-4{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-4:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-5{
+    font-weight:bold;
+    color: rgb(101, 196, 188);
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-5:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-6{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-6:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-7{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-7:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-8{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-8:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-9{
+    font-weight:bold;
+    color: rgb(101, 196, 188);
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-9:hover{
+    color: rgb(101, 196, 188);
+}
+
+
+
 
 .container-texto{
     border: 3px solid rgba(194,255,250,1);
