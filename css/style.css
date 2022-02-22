@@ -26,21 +26,22 @@ header{
 }
 .nav-container{
     background-color: rgb(255, 255, 255);
-    height: 90px;
+    height: 120px;
     display: flex;
     justify-content:space-between;
     border-bottom: 1px rgb(45, 119, 255) solid;
 }
 .h-logo{
     color: rgb(19, 19, 19);
-    margin-left: 3.5%;
+    margin-left: -20%;
+    margin-top: -25%;
 }
 .lista-nav{
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 2.5%;
-    margin-right: 41.5%;
+    margin-top: 3.5%;
+    margin-right: 40.5%;
     
 }
 li{
@@ -51,8 +52,9 @@ li{
 .texto-link{
     font-weight:bold;
     color: rgb(19, 19, 19);
-    font-size: 18px;
+    font-size: 23px;
     text-decoration: none;
+    
 }
 .texto-link:hover{
     color: rgb(82, 73, 73);

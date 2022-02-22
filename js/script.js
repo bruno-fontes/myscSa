@@ -11,7 +11,7 @@ function addAtividade() {
     dataAtividade.value = ""
     atividade.value = ""
     alert("Atividade adicionada.")
-    // window.location.reload();
+     window.location.reload();
 }
 function lista(){
 let pAtividades = document.getElementById('atividades')
