@@ -1,11 +1,11 @@
-let atividades =[]
+let atividades = []
 
 
 function addAtividade() {
     let dataAtividade = document.getElementById("data")
     let atividade = document.getElementById("atividade")
     if (localStorage.getItem("atividades") != null)
-    atividades = JSON.parse(localStorage.getItem("atividades"))
+        atividades = JSON.parse(localStorage.getItem("atividades"))
     atividades.push([atividade.value, dataAtividade.value])
     localStorage.setItem("atividades", JSON.stringify(atividades))
     dataAtividade.value = ""
@@ -13,14 +13,15 @@ function addAtividade() {
     alert("Atividade adicionada.")
     // window.location.reload();
 }
-function lista(){
-let pAtividades = document.getElementById('atividades')
-pAtividades.innerHTML = ""
-if (localStorage.getItem("atividades") != null)
-atividades = JSON.parse (localStorage.getItem("atividades"))
-atividades.forEach(atividade =>{
-    pAtividades.innerHTML += atividade[0] + ":" + atividade[1] + "<br>" + "<br>"
-});}
+function lista() {
+    let pAtividades = document.getElementById('atividades')
+    pAtividades.innerHTML = ""
+    if (localStorage.getItem("atividades") != null)
+        atividades = JSON.parse(localStorage.getItem("atividades"))
+    atividades.forEach(atividade => {
+        pAtividades.innerHTML += atividade[0] + ":" + atividade[1] + "<br>" + "<br>"
+    });
+}
 
 
 function deletarTudo() {
@@ -28,13 +29,13 @@ function deletarTudo() {
     alert("Atividades removidas.")
     location.reload()
 }
-function criarConta(){
-    window.location.href="./criarconta.html"
+function criarConta() {
+
     //fazer funçao
-    
+
 }
 function logar() {
-    window.location.href="./ListaAtividade.html"
+    window.location.href = "./ListaAtividade.html"
     //fazer funçao   
 }
 function add() {
@@ -43,13 +44,19 @@ function add() {
     divMostraAtividades.style.display = 'none';
     divListaDeAtividades.style.display = 'block';
 
-    
+
 }
 
 
 function irCadastro() {
-let divLogin = document.getElementById('container-login')
-let divCadastro = document.getElementById('container-cadastro')
-divLogin.style.display = 'none'
-divCadastro.style.display = 'block'    
+    let divLogin = document.getElementById('container-login')
+    let divCadastro = document.getElementById('container-cadastro')
+    divLogin.style.display = 'none'
+    divCadastro.style.display = 'block'
+}
+function voltarLogin() {
+    let divLogin = document.getElementById('container-login')
+    let divCadastro = document.getElementById('container-cadastro')
+    divLogin.style.display = 'block'
+    divCadastro.style.display = 'none'
 }
