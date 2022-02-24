@@ -12,18 +12,14 @@ body{
     background: rgb(255,255,255);
 background: linear-gradient(90deg, rgba(218,216,216,1) 0%, rgba(194,255,250,1) 50%, 
 rgba(218,216,216,1) 100%);
-    background-size: 100%;
+    
     background-position: 80%;
+    
 
     
 }
 
-header{
-    padding: 1px;
-    background-color: rgb(34, 109, 34); 
-    color: #fff;
-    padding-left: 580px;
-}
+
 .nav-container{
     background-color: rgb(255, 255, 255);
     height: 120px;
@@ -406,5 +402,34 @@ input{
     padding-left: 20px;
         }
     
+.footer{
+    
+   
+    background-color: black;
+    color: #fff;
+    margin-top: 40%;
+    padding: 1%;
+    font-size: 120%;
+   
+        }
+        .h3-footer{
+            text-align: center;
+        }
+        .contatos-footer{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2%;
+        }
+        .a-footer{
+            text-decoration: none;
+            background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+            color: black;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 120%;
+            padding: 2%;
+        }
+        
 
 
