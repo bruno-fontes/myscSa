@@ -33,8 +33,8 @@ function lista() {
          if (localStorage.getItem("atividades") != null)
         atividades = JSON.parse(localStorage.getItem("atividades"))
         atividades.forEach(atividade => 
-        pAtividades.innerHTML += (atividade[0] + ":" + atividade[1] + "<br>" + "<br>")
-}
+        pAtividades.innerHTML += (atividade[0] + ":" + atividade[1] + "<br>" + "<br>"))
+}   
 
  
         
@@ -107,22 +107,11 @@ function logar() {
     }   
         
 }
-
-function add() {
-    let divMostraAtividades = document.getElementById('container-lista');
-    let divListaDeAtividades = document.getElementById('adicionar-atividades');
-    divMostraAtividades.style.display = 'none';
-    divListaDeAtividades.style.display = 'block';
-        
-        
-}
         
         
 function irCadastro() {
     let divLogin = document.getElementById('container-login')
     let divCadastro = document.getElementById('container-cadastro')
-    divLogin.style.display = 'none'
-    divCadastro.style.display = 'block'
 }
 
 
