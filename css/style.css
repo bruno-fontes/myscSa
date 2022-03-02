@@ -154,6 +154,24 @@ li{
 
 
 
+.container-landing{
+    background-color: rgba(218,216,216,1);
+    width: 80%;
+    margin-left: 10%;
+    height: 10%;
+
+}
+.caixa-de-texto-metade , .img-landing{
+    display: inline-block;
+    width: 45%;
+}
+.caixa-de-texto-metade{
+    margin-left: 9.5%;
+    background-color: blue;
+}
+
+
+
 .container-texto{
     border: 3px solid rgba(194,255,250,1);
     background-color: white;
@@ -408,11 +426,42 @@ input{
     font-family: 'Noto Sans Mono';
     
         }
+<<<<<<< HEAD
         .btn-criar-conta2:hover{
             background-color: rgb(130, 202, 196) ;
         }
     
 
         
+=======
+        .contatos-footer{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2%;
+        }
+        .a-footer{
+            text-decoration: none;
+            background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+            color: black;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 120%;
+            padding: 2%;
+        } .paragrafoEspecial, .checkbox{
+            display: inline-block;
+             width: 70%;
+             margin-left: 5%;
+            
+             vertical-align: middle;
+        }
+        .checkbox{
+            line-height: 10%;
+            padding-bottom: 1%;
+            width: 10%;
+            height: 10%;
+         
+        }
+>>>>>>> f8d2bc184f87a4a5d5c9f88390da9044f9629d4e
 
 
