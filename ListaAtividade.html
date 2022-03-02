@@ -15,19 +15,23 @@
 
     <div id="pagina">
         <div class="nav-container">
-            <h1> <img class="h-logo"  src="MYSC.svg" width="250"></h1></a>
+            <h1> <img class="h-logo" src="MYSC.svg" width="250"></h1></a>
             <ul class="lista-nav">
                 <li><a class='texto-link-4' href="index.html">Home</a></li>
                 <li><a class='texto-link-5' href="ListaAtividade.html">Atividades</a></li>
-                <li><a class='texto-link-6' href="criarconta.html">Login</a></li>
+                <li><a class="texto-link-6" href="home.html">Sobre Nós</a></li>
             </ul>
+            <li><a class='logout' href="criarconta.html">Logout</a></li>
         </div>
-        <div class="container-maeDoBasitt">
+        
             <div class="container-adicionar">
                 <h3 id="h3Container">Adicione sua Atividade</h3>
-                <input type="date" id="data" class="input-data" >
+                <input type="date" id="data" class="input-data">
                 <input type="text" id="atividade" placeholder="Atividade">
-                <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
+                <div class="btns-div">
+                    <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
+                    <button class="btn-deletar" onclick="deletarTudo()">Excluir</button>
+                </div>
             </div>
             <div class="container-lista" id="container-lista">
                 <h3 id="h3Container">Suas Atividades:</h3>
@@ -37,25 +41,21 @@
                 <br>
                 <br>
                 <br>
-                <div class="btns-div">
-                    <button class="btn-deletar" onclick="add()">Adicionar</button>
-                    <button class="btn-deletar" onclick="deletarTudo()">Excluir</button>
-                </div>
             </div>
-    
-        </div>
+
         
-        </div>
 
-           
-            <script src="js/script.js"></script>
+    </div>
 
-            <script>lista()</script>
 
-        </div>
-        <footer>
+    <script src="js/script.js"></script>
 
-        </footer>
+    <script>lista()</script>
+
+    </div>
+    <footer>
+
+    </footer>
     </div>
 </body>
 

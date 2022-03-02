@@ -37,7 +37,7 @@ rgba(218,216,216,1) 100%);
     display: flex;
     justify-content: center;
     margin-top: 3.5%;
-    margin-right: 40.5%;
+    margin-right: 20.5%;
     
 }
 li{
@@ -45,6 +45,7 @@ li{
     margin-left: 20px;
     
 }
+
 .texto-link-1{
     font-weight:bold;
     color: rgb(101, 196, 188);
@@ -70,6 +71,7 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
+    
     
 }
 .texto-link-3:hover{
@@ -130,9 +132,22 @@ li{
     color: rgb(101, 196, 188);
     font-size: 23px;
     text-decoration: none;
+    margin-left: -570%;
     
 }
 .texto-link-9:hover{
+    color: rgb(101, 196, 188);
+}
+.logout{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: -10%;
+    margin-top: 3.5%;
+    position: absolute;
+}
+.logout:hover{
     color: rgb(101, 196, 188);
 }
 
@@ -165,10 +180,6 @@ li{
 
 
 .paragrafo{
-    border: 3px solid rgba(194,255,250,1);
-    padding: 10px;
-    border-radius: 7px;
-    overflow-y: scroll;
     
 }
 
@@ -194,25 +205,29 @@ li{
 .container-maeDoBasitt{
  display: flex;
  justify-content: center;
+ 
 }
 
-.container-lista{
-    margin-top: 50px;
-    width:30%;
-    padding: 30px;
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: #fff;
-    
-}
 .container-adicionar{
-    margin-top: 50px;
+    margin-top: 3.7%;
     width:30%;
     padding: 30px;
     border: 2px solid black ;
     border-radius: 10px;
     background-color: #fff;
-    margin-right: 5%;
+    margin-left: 17%;
+    
+}
+.container-lista{
+    margin-top: -26.8%;
+    margin-left: 70.5%;
+    width:25%;
+    padding: 30px;
+    height: 100%;
+    
+    
+    background-color: #fff;
+    
 }
 
 #data {
@@ -222,18 +237,30 @@ li{
 }
 
 .btn-adicionar{
-    background: white;
-    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-    color: black;
+    background-color: rgba(194,255,250,1);
     border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    width: 40%;
-    cursor: pointer; 
-    font-size: medium;
-    padding: 10px;
-    margin-left: 30%;
-    margin-top: 5%;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+
+
+}
+.btn-adicionar:hover{
+    background-color: rgb(130, 202, 196) ;
+}
+.btn-deletar{
+    
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+    
+    
+}
+.btn-deletar:hover{
+    background-color: rgb(130, 202, 196) ;
 }
 
 .container-login{
@@ -265,7 +292,8 @@ li{
 }
 .btns-div{
     display: flex;
-    justify-content:space-between;
+    justify-content:space-around;
+    margin-top: 2%;
     
 }
 .btns-div-3{
@@ -274,29 +302,26 @@ li{
    margin-top: 5%;
 }
 .btn-nao-possuo-conta{
+    background-color: rgba(194,255,250,1);
     border: none;
-    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-    color: black;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;    
-    font-size: medium;
-    text-decoration: none;
-    width: 40%;
-    padding-left: 20px;
-
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+ }
+ .btn-nao-possuo-conta:hover{
+    background-color: rgb(130, 202, 196) ;
  }
  .btn-ja-possuo-conta{
+    background-color: rgba(194,255,250,1);
     border: none;
-    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-    color: black;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;    
-    font-size: medium;
-    text-decoration: none;
-    width: 40%;
-    padding-left: 20px;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+ }
+ .btn-ja-possuo-conta:hover{
+    background-color: rgb(130, 202, 196) ;
  }
 
 .addAttContainer{
@@ -317,22 +342,7 @@ li{
     
 }
 
-.btn-deletar{
-    
-    
-    background: white;
-    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-    color: black;
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    width: 40%;
-    cursor: pointer; 
-    font-size: medium;
-    padding: 10px;
-    
-    
-}
+
 
     
 
@@ -355,15 +365,15 @@ input{
     
 }
 .btn-logar{
-    width: 40%;
-    background: rgb(194,255,250);
-    background: linear-gradient(90deg, rgba(194,255,250,1) 0%, rgba(255,255,255,1) 100%);   
-    color: black;
-    padding: 10px;  
-    font-weight: bold;
+    background-color: rgba(194,255,250,1);
     border: none;
-    cursor: pointer;
-    font-size: medium;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+}
+.btn-logar:hover{
+    background-color: rgb(130, 202, 196) ;
 }
 
 #h3CriarConta{
@@ -391,47 +401,18 @@ input{
     
     .btn-criar-conta2{
    
-        
-    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-    color: black;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
+        background-color: rgba(194,255,250,1);
     border: none;
-    font-size: medium;
-    text-decoration: none;
-    width: 40%;
-    padding-left: 20px;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+        }
+        .btn-criar-conta2:hover{
+            background-color: rgb(130, 202, 196) ;
         }
     
-.footer{
-    
-   
-    background-color: black;
-    color: #fff;
-    margin-top: 40%;
-    padding: 1%;
-    font-size: 120%;
-   
-        }
-        .h3-footer{
-            text-align: center;
-        }
-        .contatos-footer{
-            display: flex;
-            justify-content: space-evenly;
-            margin-bottom: 2%;
-        }
-        .a-footer{
-            text-decoration: none;
-            background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
-            color: black;
-            border-radius: 5px;
-            font-weight: bold;
-            cursor: pointer;
-            font-size: 120%;
-            padding: 2%;
-        }
+
         
 
 
