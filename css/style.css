@@ -139,6 +139,24 @@ li{
 
 
 
+.container-landing{
+    background-color: rgba(218,216,216,1);
+    width: 80%;
+    margin-left: 10%;
+    height: 10%;
+
+}
+.caixa-de-texto-metade , .img-landing{
+    display: inline-block;
+    width: 45%;
+}
+.caixa-de-texto-metade{
+    margin-left: 9.5%;
+    background-color: blue;
+}
+
+
+
 .container-texto{
     border: 3px solid rgba(194,255,250,1);
     background-color: white;
@@ -431,7 +449,19 @@ input{
             cursor: pointer;
             font-size: 120%;
             padding: 2%;
+        } .paragrafoEspecial, .checkbox{
+            display: inline-block;
+             width: 70%;
+             margin-left: 5%;
+            
+             vertical-align: middle;
         }
-        
+        .checkbox{
+            line-height: 10%;
+            padding-bottom: 1%;
+            width: 10%;
+            height: 10%;
+         
+        }
 
 

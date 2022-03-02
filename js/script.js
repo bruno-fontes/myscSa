@@ -33,7 +33,7 @@ function lista() {
          if (localStorage.getItem("atividades") != null)
         atividades = JSON.parse(localStorage.getItem("atividades"))
         atividades.forEach(atividade => 
-        pAtividades.innerHTML += (atividade[0] + ":" + atividade[1] + "<br>" + "<br>"))
+        pAtividades.innerHTML += ("Atividade:" + atividade[0] + "<br>" + " Para a data:"  + atividade[1] + "<br>" + "<br>"))
 }   
 
  
