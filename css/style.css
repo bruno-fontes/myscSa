@@ -10,8 +10,8 @@ body{
     margin: 0;
     padding: 0;
     background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(218,216,216,1) 0%, rgba(194,255,250,1) 50%, 
-rgba(218,216,216,1) 100%);
+    background: linear-gradient(90deg, rgba(218,216,216,1) 0%, rgba(194,255,250,1) 50%, 
+    rgba(218,216,216,1) 100%);
     
     background-position: 80%;
     
@@ -48,7 +48,7 @@ li{
 
 .texto-link-1{
     font-weight:bold;
-    color: rgb(101, 196, 188);
+    color: black;
     font-size: 23px;
     text-decoration: none;
     
@@ -68,7 +68,7 @@ li{
 }
 .texto-link-3{
     font-weight:bold;
-    color: black;
+    color: rgb(101, 196, 188);
     font-size: 23px;
     text-decoration: none;
     
@@ -109,7 +109,7 @@ li{
 }
 .texto-link-7{
     font-weight:bold;
-    color: black;
+    color: rgb(101, 196, 188);
     font-size: 23px;
     text-decoration: none;
     
@@ -129,10 +129,10 @@ li{
 }
 .texto-link-9{
     font-weight:bold;
-    color: rgb(101, 196, 188);
+    color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: -570%;
+    
     
 }
 .texto-link-9:hover{
