@@ -132,11 +132,23 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: -580%;
+    
     
     
 }
 .texto-link-9:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-10{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: -580%;
+    
+    
+}
+.texto-link-10:hover{
     color: rgb(101, 196, 188);
 }
 .logout{
