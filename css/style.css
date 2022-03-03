@@ -1,0 +1,467 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(218,216,216,1) 0%, rgba(194,255,250,1) 50%, 
+rgba(218,216,216,1) 100%);
+    
+    background-position: 80%;
+    
+
+    
+}
+
+
+.nav-container{
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 1px gray solid;
+}
+.h-logo{
+    color: rgb(19, 19, 19);
+    margin-left: -20%;
+    margin-top: -25%;
+}
+.lista-nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 3.5%;
+    margin-right: 20.5%;
+    
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+
+.texto-link-1{
+    font-weight:bold;
+    color: rgb(101, 196, 188);
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-1:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-2{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-2:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-3{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+    
+}
+.texto-link-3:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-4{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-4:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-5{
+    font-weight:bold;
+    color: rgb(101, 196, 188);
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-5:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-6{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-6:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-7{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-7:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-8{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    
+}
+.texto-link-8:hover{
+    color: rgb(101, 196, 188);
+}
+.texto-link-9{
+    font-weight:bold;
+    color: rgb(101, 196, 188);
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: -570%;
+    
+}
+.texto-link-9:hover{
+    color: rgb(101, 196, 188);
+}
+.logout{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: -10%;
+    margin-top: 3.5%;
+    position: absolute;
+}
+.logout:hover{
+    color: rgb(101, 196, 188);
+}
+
+
+
+
+.container-landing{
+    background-color: rgba(218,216,216,1);
+    width: 80%;
+    margin-left: 10%;
+    height: 10%;
+
+}
+.caixa-de-texto-metade , .img-landing{
+    display: inline-block;
+    width: 45%;
+}
+.caixa-de-texto-metade{
+    margin-left: 9.5%;
+    background-color: blue;
+}
+
+
+
+.container-texto{
+    border: 3px solid rgba(194,255,250,1);
+    background-color: white;
+    margin-top: 50px;
+    width: 60%;
+    border-radius: 10px;
+    margin-left: 20%;
+   font-family: 'Times New Roman';
+   
+}
+.caixa-de-texto{
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    overflow:hidden;
+    
+}
+.p-home{
+    font-size: 120%;
+    font-family: Noto Sans Mono;
+}
+
+
+
+
+.paragrafo{
+    
+}
+
+
+
+
+
+#h3Login{
+    padding-left: 50px;
+}
+
+.container-cadastro{
+   display: none;
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rgba(194,255,250,1);
+    border-radius: 10px;
+    margin-left: 37.5%;
+    background-color: #fff;
+    
+}
+.container-maeDoBasitt{
+ display: flex;
+ justify-content: center;
+ 
+}
+
+.container-adicionar{
+    margin-top: 3.7%;
+    width:30%;
+    padding: 30px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-left: 17%;
+    
+}
+.container-lista{
+    margin-top: -26.8%;
+    margin-left: 70.5%;
+    width:25%;
+    padding: 30px;
+    height: 100%;
+    
+    
+    background-color: #fff;
+    
+}
+
+#data {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.btn-adicionar{
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+
+
+}
+.btn-adicionar:hover{
+    background-color: rgb(130, 202, 196) ;
+}
+.btn-deletar{
+    
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+    
+    
+}
+.btn-deletar:hover{
+    background-color: rgb(130, 202, 196) ;
+}
+
+.container-login{
+
+    margin-top: 50px;
+    width: 20%;
+    padding: 30px;
+    border: 3px solid rgba(194,255,250,1);
+    border-radius: 10px;
+    margin-left: 37.5%;
+    background-color: #fff;
+    
+            
+}
+#h3Container{
+    text-align: center;
+    margin-top: auto;
+    padding-top: 0px;
+    padding: 3px;
+    
+    
+    
+}
+#atividades{
+    font-family: Verdana;
+    margin-top: 1px;    
+    
+    
+}
+.btns-div{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 2%;
+    
+}
+.btns-div-3{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 5%;
+}
+.btn-nao-possuo-conta{
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+ }
+ .btn-nao-possuo-conta:hover{
+    background-color: rgb(130, 202, 196) ;
+ }
+ .btn-ja-possuo-conta{
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+ }
+ .btn-ja-possuo-conta:hover{
+    background-color: rgb(130, 202, 196) ;
+ }
+
+.addAttContainer{
+    
+   
+    background: white;
+    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+    font-size: medium;
+    text-decoration: none;
+    width: 40%;
+    padding-left: 20px;
+    
+}
+
+
+
+    
+
+
+
+input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    text-align: center;
+    color:rgb(19, 19, 19);
+    font-weight: bold;
+    
+}
+.btn-logar{
+    background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+}
+.btn-logar:hover{
+    background-color: rgb(130, 202, 196) ;
+}
+
+#h3CriarConta{
+    margin-left: 25px;
+}
+
+.btn-criar-conta{
+    margin-top: 5%;
+   width: 60%;
+   margin-left: 20%;
+    background: white;
+    background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+    color: black;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-size: medium;
+    }
+    .btns-div-2{
+       display: flex;
+       justify-content: space-between;
+       }
+    
+    .btn-criar-conta2{
+   
+        background-color: rgba(194,255,250,1);
+    border: none;
+    padding: 4%;
+    border-radius: 10%;
+    font-family: 'Noto Sans Mono';
+    
+        }
+<<<<<<< HEAD
+        .btn-criar-conta2:hover{
+            background-color: rgb(130, 202, 196) ;
+        }
+    
+
+        
+=======
+        .contatos-footer{
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 2%;
+        }
+        .a-footer{
+            text-decoration: none;
+            background: linear-gradient(90deg, white 0%, rgba(194,255,250,1) 100%);
+            color: black;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 120%;
+            padding: 2%;
+        } .paragrafoEspecial, .checkbox{
+            display: inline-block;
+             width: 70%;
+             margin-left: 5%;
+            
+             vertical-align: middle;
+        }
+        .checkbox{
+            line-height: 10%;
+            padding-bottom: 1%;
+            width: 10%;
+            height: 10%;
+         
+        }
+>>>>>>> f8d2bc184f87a4a5d5c9f88390da9044f9629d4e
+
+
