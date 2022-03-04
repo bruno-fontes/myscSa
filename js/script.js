@@ -15,15 +15,13 @@ let pAtividades = document.getElementById('atividades')
 
 function addAtividade() {
      if (localStorage.getItem("atividades") != null)
-
-        atividades = JSON.parse(localStorage.getItem("atividades"))
-        atividades.push([atividade.value, dataAtividade.value])
-
-        localStorage.setItem("atividades", JSON.stringify(atividades))
-        dataAtividade.value = ""
-        atividade.value = ""
-            alert("Atividade adicionada.")
-             window.location.reload();
+    atividades = JSON.parse(localStorage.getItem("atividades"))
+    atividades.push([atividade.value, dataAtividade.value])
+    localStorage.setItem("atividades", JSON.stringify(atividades))
+    dataAtividade.value = ""
+    atividade.value = ""
+    alert("Atividade adicionada.")
+    window.location.reload();
 }
 
 
@@ -32,8 +30,7 @@ function lista() {
         pAtividades.innerHTML = ""
          if (localStorage.getItem("atividades") != null)
         atividades = JSON.parse(localStorage.getItem("atividades"))
-        atividades.forEach(atividade => 
-        pAtividades.innerHTML += ("Atividade:" + atividade[0] + "<br>" + " Para a data:"  + atividade[1] + "<br>" + "<br>"))
+        atividades.forEach(atividade => pAtividades.innerHTML += ("Atividade:" + atividade[0] + "<br>" + "Data:"  + atividade[1] + "<br>" + "<br>"))
 }   
 
  
