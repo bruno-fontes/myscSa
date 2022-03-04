@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    font-family: Verdana;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.container{
+    height: 550px;
+    width: 430px;
+    background-color: #3D434B;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    padding: 10px;
+    overflow-y: auto;
+}
+#inputPessoal,#inputTrabalho,#inputEstudo{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+    padding: 0 10px;
+    color: #fff;
+    background: #666;
+    margin: 5px 0;
+}
+#inputPessoal::placeholder,#inputTrabalho::placeholder,#inputEstudo::placeholder{
+    color: #bbb;
+}
+ul li{
+    background: rgb(172, 172, 172);
+    color: #333;
+    height: 40px;
+    border-radius: 50px;
+    margin:10px 0;
+    padding: 10px;
+    position: relative;
+}
+ul .fa-check, .fa-ban,.fa-thumbtack, .fa-edit{
+    position: absolute;
+    cursor: pointer;
+}
+ul .fa-check{
+    right: 35px;
+    color: #015c01
+}
+ul .fa-ban{
+    right: 15px;
+    color: #ff0033;
+}
+ul .fa-thumbtack{
+    right: 60px;
+    transform: rotate(45deg);
+    color: black;
+}
+ul .fa-edit{
+    right: 75px;
+    color: #0000d1;
+}
+ul .confirmado{
+    background: #51fc51;
+    text-decoration: line-through;
+    transition: .2s;
+}
+ul .pinado{
+    background: #000000;
+    transition: .2s;
+    color: #fff;
+}
+ul .pinado .fa-thumbtack{
+    right: 40px;
+    color: #fff;
+}
+ul .pinado .fa-check{
+    right: 15px;
+}
+ul .pinado .fa-ban{
+    display: none;
+}
+ul .pinado .fa-edit{
+    right: 55px;
+}
+#trabalho,#estudo{
+    display: none;
+}
+nav{
+    text-align: center;
+    color: gray;
+    padding: 10px;
+}
+nav a{
+    margin: 15px;
+}
+nav .selecionado{
+    color: #fff;
+    transition: .2s;
+    text-decoration: overline;
+    text-decoration-color: #EA5F8E;
+}
