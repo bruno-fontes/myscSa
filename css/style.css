@@ -25,12 +25,13 @@ body{
     height: 120px;
     display: flex;
     justify-content:space-between;
+  margin-bottom: 15px;
    
 }
 .h-logo{
     color: rgb(19, 19, 19);
     margin-left: -20%;
-    margin-top: -25%;
+    margin-top: -27%;
 }
 .lista-nav{
     list-style: none;
@@ -112,6 +113,7 @@ li{
     color: rgb(101, 196, 188);
     font-size: 23px;
     text-decoration: none;
+    margin-left: -500%;
     
 }
 .texto-link-7:hover{
@@ -165,32 +167,73 @@ li{
 }
 
 .container-landing{
-    background-color: rgba(218,216,216,1);
+    background-color: white;
+    
     width: 80%;
     margin-left: 10%;
     height: 1000px;
     background-position: center;
-
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
 }
-.caixa-de-texto-metade , .img-landing{
+
+.caixa-de-texto-metade{
     display: inline-block;
     width: 45%;
+    background-color: white ;
+    margin-top: 7%;
+    height: 324px;
+    
+    
+    
+
+
 }
-.caixa-de-texto-metade{
+    .titulo-introducao-metade{
+    margin-left: 5%;
+}
+    .p-home-metade{
+    margin-left: 5%;
+    font-size: 120%;
+    font-family: Noto Sans Mono
+}
+
+    .img-landing    {
+        display: inline-block;
+        width: 45%;
+        margin-top: 7%;
+        height: 324px;
+        
+        
+        
+        
     }
 
 
 
+
 .container-texto{
-    border: 3px solid rgba(194,255,250,1);
     background-color: white;
-    margin-top: 50px;
     width: 60%;
     border-radius: 10px;
-    margin-left: 20%;
    font-family: 'Times New Roman';
+   margin-top: -40%;
+   margin-left: 20%;
+   height: 300px;
    
 }
+.btn-index{
+padding: 30px;
+font-size: 150%;
+margin-left: 35%;
+background-color: black;
+border: none;
+border-radius: 50px;
+color: white;
+cursor: pointer;
+}
+
 .caixa-de-texto{
     width: 60%;
     margin-left: 20%;
@@ -245,7 +288,7 @@ li{
     margin-top: -28.8%;
     margin-left: 70.5%;
     width:25%;
-    padding: 30px;
+    padding: 30px;background-color: rgba(194,255,250,1);
     height: 50rem;
     background-color: #fff;
     
@@ -259,6 +302,7 @@ li{
     padding: 4%;
     border-radius: 10%;
     font-family: 'Noto Sans Mono';
+    cursor: pointer;
 
 
 }
@@ -271,6 +315,7 @@ li{
     border: none;
     padding: 4%;
     border-radius: 10%;
+    cursor: pointer;
     font-family: 'Noto Sans Mono';
     
     
@@ -323,6 +368,7 @@ li{
     border: none;
     padding: 4%;
     border-radius: 10%;
+    cursor: pointer;
     font-family: 'Noto Sans Mono';
     
  }
@@ -335,6 +381,7 @@ li{
     padding: 4%;
     border-radius: 10%;
     font-family: 'Noto Sans Mono';
+    cursor: pointer;
     
  }
  .btn-ja-possuo-conta:hover{
@@ -397,6 +444,7 @@ li{
     border: none;
     padding: 4%;
     border-radius: 10%;
+    cursor: pointer;
     font-family: 'Noto Sans Mono';
     
 }
@@ -425,6 +473,7 @@ li{
     .btns-div-2{
        display: flex;
        justify-content: space-between;
+       
        }
     
     .btn-criar-conta2{
@@ -434,6 +483,7 @@ li{
     padding: 4%;
     border-radius: 10%;
     font-family: 'Noto Sans Mono';
+    cursor: pointer;
     
         }
 

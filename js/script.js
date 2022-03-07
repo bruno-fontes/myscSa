@@ -123,3 +123,6 @@ function voltarLogin() {
     dataAtividade.value = ""
     atividade.value = ""
 }
+function irPaginaLogin(){
+    window.location.href="criarConta.html"
+}
