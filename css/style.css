@@ -47,50 +47,10 @@ li{
     
 }
 
-.texto-link-1{
-    font-weight:bold;
-    color: black;
-    font-size: 23px;
-    text-decoration: none;
-    
-}
-.texto-link-1:hover{
-    color: rgb(101, 196, 188);
-}
-.texto-link-2{
-    font-weight:bold;
-    color: black;
-    font-size: 23px;
-    text-decoration: none;
-    
-}
-.texto-link-2:hover{
-    color: rgb(101, 196, 188);
-}
-.texto-link-3{
-    font-weight:bold;
-    color: rgb(101, 196, 188);
-    font-size: 23px;
-    text-decoration: none;
-    
-    
-}
-.texto-link-3:hover{
-    color: rgb(101, 196, 188);
-}
-.texto-link-4{
-    font-weight:bold;
-    color: black;
-    font-size: 23px;
-    text-decoration: none;
-    
-}
-.texto-link-4:hover{
-    color: rgb(101, 196, 188);
-}
+
 .texto-link-5{
     font-weight:bold;
-    color: rgb(101, 196, 188);
+    color: black;
     font-size: 23px;
     text-decoration: none;
     
@@ -98,19 +58,10 @@ li{
 .texto-link-5:hover{
     color: rgb(101, 196, 188);
 }
-.texto-link-6{
-    font-weight:bold;
-    color: black;
-    font-size: 23px;
-    text-decoration: none;
-    
-}
-.texto-link-6:hover{
-    color: rgb(101, 196, 188);
-}
+
 .texto-link-7{
     font-weight:bold;
-    color: rgb(101, 196, 188);
+    color: black;
     font-size: 23px;
     text-decoration: none;
     margin-left: -500%;
@@ -119,21 +70,13 @@ li{
 .texto-link-7:hover{
     color: rgb(101, 196, 188);
 }
-.texto-link-8{
-    font-weight:bold;
-    color: black;
-    font-size: 23px;
-    text-decoration: none;
-    
-}
-.texto-link-8:hover{
-    color: rgb(101, 196, 188);
-}
+
 .texto-link-9{
     font-weight:bold;
     color: black;
     font-size: 23px;
     text-decoration: none;
+    margin-left: -220%;
     
     
     
@@ -146,7 +89,7 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: -580%;
+    margin-left: -780%;
     
     
 }
@@ -168,14 +111,29 @@ li{
 
 .container-landing{
     background-color: white;
-    
-    width: 80%;
+     width: 80%;
     margin-left: 10%;
     height: 1000px;
     background-position: center;
     display: flex;
     justify-content: center;
     border: 2px solid black;
+}
+.footer{
+    
+    margin-top: 50%;
+    width: 134%;
+    margin-left: -34%;
+    text-align: center;
+    background-color: gray;
+    height: 80px;
+}
+.h2-footer{
+    margin-left: 25%;
+}
+.p-footer{
+margin-top: -2%;
+margin-left: 25%;
 }
 
 .caixa-de-texto-metade{
@@ -223,6 +181,7 @@ li{
    height: 300px;
    
 }
+
 .btn-index{
 padding: 30px;
 font-size: 150%;
