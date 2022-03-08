@@ -7,33 +7,88 @@ let emailArray = []
 let nomeArray = []
 let userArray = []
 let senhaArray = []
+let atividadeArray = [];
+let dataAtividadeArray = [];
 let nomeLogin = document.getElementById("email-login")
 let senhaLogin = document.getElementById("senha-login")
 let dataAtividade = document.getElementById("data")
 let atividade = document.getElementById("atividade")
 let pAtividades = document.getElementById('atividades')
 
+
+
 function addAtividade() {
-     if (localStorage.getItem("atividades") != null)
-    atividades = JSON.parse(localStorage.getItem("atividades"))
-    atividades.push([atividade.value, dataAtividade.value])
-    localStorage.setItem("atividades", JSON.stringify(atividades))
-    dataAtividade.value = ""
-    atividade.value = ""
-    alert("Atividade adicionada.")
+    //pega os itens do ls
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem('data_atividade'))
+    //se não houver item
+    if (atividadeArray == null){
+        //recria os arrays
+        let atividadeArray = [];
+        let dataAtividadeArray = [];
+        //empurra para dentro desses arrays os valores do inputs
+        atividadeArray.push(atividade.value);
+        dataAtividadeArray.push(dataAtividade.value);
+        //empurra localstorage
+        localStorage.setItem('atividade' ,JSON.stringify(atividadeArray));
+        localStorage.setItem('data_atividade' ,JSON.stringify(dataAtividadeArray));
+        // caso haja item
+    }else{
+        //empurra para dentro desses arrays os valores do inputs
+        atividadeArray.push(atividade.value);
+        dataAtividadeArray.push(dataAtividade.value);
+        //empurra localstorage
+        localStorage.setItem('atividade' ,JSON.stringify(atividadeArray));
+        localStorage.setItem('data_atividade' ,JSON.stringify(dataAtividadeArray));
+    }
+    
+    dataAtividade.value = "";
+    atividade.value = "";
+    alert("Atividade adicionada.");
     window.location.reload();
 }
 
+function mostraLista(){
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
+    for(i=0; i < atividadeArray.length ;i++){
+        let listaAtividades = document.getElementById('lista-atividade');
+        let itensDeLista= document.createElement('li');
+        let atividadeDaLista = atividadeArray[i];
+        let dataDaLista = dataAtividadeArray[i];
+        let conteudoDoItem= `
+        <div class='atividades-criadas'>
+        <div class='btns-box'>
+        <button class='btn-editar' onclick='editarTarefa()'>Editar</button>
+        <button class='btn-excluir'onclick='excluirTarefa()'>Excluir</button>
+        </div>
+        <h class='titulo-lista'>Atividade:</h>
+        <p  class='p-itemLista'>${atividadeDaLista}</p>
+        <h class='titulo-lista'>Data:</h>
+        <p  class='p-itemLista'>${dataDaLista}</p>
+        </div>`;
 
-function lista() {
+        itensDeLista.innerHTML = conteudoDoItem
+        listaAtividades.appendChild(itensDeLista);
+    }
+        function excluirTarefa() {
+            
+           
+            atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+            dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
 
-        pAtividades.innerHTML = ""
-         if (localStorage.getItem("atividades") != null)
-        atividades = JSON.parse(localStorage.getItem("atividades"))
-        atividades.forEach(atividade => pAtividades.innerHTML += ("Atividade:" + atividade[0] + "<br>" + "Data:"  + atividade[1] + "<br>" + "<br>"))
-}   
 
- 
+            for(i = 0; i < atividadeArray.length; i++){
+                atividadeArray.splice(indice, 1)
+                dataAtividadeArray.splice(indice, 1) 
+            }
+        }
+
+
+
+}
+
+ mostraLista();
         
         
 function deletarTudo() {

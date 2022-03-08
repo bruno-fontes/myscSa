@@ -30,21 +30,20 @@
                 <input type="text" id="data" class="input-data" placeholder="Data">
                 <input type="text" id="atividade" placeholder="Atividade">
                 <div class="btns-div">
-                    <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
+                     <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
                     <button class="btn-deletar" onclick="deletarTudo()">Excluir</button>
                 </div>
             </div>
             <div class="container-lista" id="container-lista">
                 <h3 id="h3Container">Suas Atividades:</h3>
                 <div class="paragrafo">
-                    
-                    <div class="paragrafoEspecial">
-                        <p id="atividades"></p>
-                    </div>
+                    <ul id='lista-atividade' class="lista-atividade">
               
                    
                     
-                </div>
+                    </ul>
+                </div> 
+               
 
                 <br>
                 <br>
@@ -56,9 +55,9 @@
     </div>
 
 
-    <script src="js/script.js"></script>
+    <script src="js/script.js">excluirTarefas()</script>
 
-    <script>lista()</script>
+    
 
     </div>
     <div class="footer">

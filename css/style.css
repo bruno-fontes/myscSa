@@ -125,16 +125,29 @@ li{
     width: 134%;
     margin-left: -34%;
     text-align: center;
-    background-color: gray;
+    background-color: rgb(32, 30, 30, 0.5);
     height: 80px;
+}
+.footer-landing{
+    margin-top: 50%;
+    width: 167.3%;
+    margin-left: -34%;
+    text-align: center;
+    background-color: rgb(32, 30, 30, 0.5);
+    height: 80px;
+
 }
 .h2-footer{
     margin-left: 25%;
 }
+
 .p-footer{
 margin-top: -2%;
 margin-left: 25%;
 }
+    .p-footer-landing{
+        margin-top: -2.9%;
+    }
 
 .caixa-de-texto-metade{
     display: inline-block;
