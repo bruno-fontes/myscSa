@@ -54,6 +54,7 @@ function mostraLista(){
     for(i=0; i < atividadeArray.length ;i++){
         let listaAtividades = document.getElementById('lista-atividade');
         let itensDeLista= document.createElement('li');
+        itensDeLista.classList.add('li-lista');
         let atividadeDaLista = atividadeArray[i];
         let dataDaLista = dataAtividadeArray[i];
         let conteudoDoItem= `
