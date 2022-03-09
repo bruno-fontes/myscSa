@@ -58,14 +58,14 @@ function mostraLista(){
         let dataDaLista = dataAtividadeArray[i];
         let conteudoDoItem= `
         <div class='atividades-criadas'>
-        <div class='btns-box'>
-        <button class='btn-editar' onclick='editarTarefa()'>Editar</button>
-        <button class='btn-excluir'onclick='excluirTarefa()'>Excluir</button>
-        </div>
-        <h class='titulo-lista'>Atividade:</h>
-        <p  class='p-itemLista'>${atividadeDaLista}</p>
-        <h class='titulo-lista'>Data:</h>
-        <p  class='p-itemLista'>${dataDaLista}</p>
+            <div class='btns-box'>
+                <button class='btn-editar' onclick='editarTarefa()'>Editar</button>
+                <button class='btn-excluir'onclick='excluirTarefa()'>Excluir</button>
+            </div>
+             <h class='titulo-lista'>Atividade:</h>
+            <p class='p-itemLista'>${atividadeDaLista}</p>
+            <h class='titulo-lista'>Data:</h>
+            <p class='p-itemLista'>${dataDaLista}</p>
         </div>`;
 
         itensDeLista.innerHTML = conteudoDoItem

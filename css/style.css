@@ -263,6 +263,7 @@ cursor: pointer;
     padding: 30px;background-color: rgba(194,255,250,1);
     height: 50rem;
     background-color: #fff;
+   
     
 }
 
@@ -484,5 +485,11 @@ cursor: pointer;
              margin-left: 5%;
             
              vertical-align: middle;
+        }
+        .atividades-criadas{
+            width: 250%;
+            border: 2px solid black;
+            margin-left: -36%;
+            
         }
         
