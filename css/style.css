@@ -44,6 +44,8 @@ body{
 li{
     display: inline-block;
     margin-left: 20px;
+    width: 100%;
+    height: auto;
     
 }
 
@@ -245,28 +247,26 @@ cursor: pointer;
  display: flex;
  justify-content: center;
  
+ 
 }
 
 .container-adicionar{
-    margin-top: 10%;
-    width:30%;
     padding: 30px;
     border-radius: 10px;
-    background-color: #fff;
-    margin-left: 16%;   
+    background-color: #fff; 
      
 }
+.container-lista , .container-adicionar{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 5%;
+    vertical-align: top;
+}
 .container-lista{
-    margin-top: -32%;
-    margin-left: 70.5%;
-    width:25%;
-    padding: 30px;
     background-color: rgba(218,216,216,1) 100%;
     height: 50rem;
-    flex-wrap: wrap;
-    
-
-
+    overflow-y: scroll;
     }
 
 
@@ -454,13 +454,13 @@ cursor: pointer;
     .btn-criar-conta2{
    
         background-color: rgba(194,255,250,1);
-    border: none;
-    padding: 4%;
-    border-radius: 10%;
-    font-family: 'Noto Sans Mono';
-    cursor: pointer;
+        border: none;
+        padding: 4%;
+        border-radius: 10%;
+        font-family: 'Noto Sans Mono';
+        cursor: pointer;
     
-        }
+    }
 
         .btn-criar-conta2:hover{
             background-color: rgb(130, 202, 196) ;
@@ -490,42 +490,49 @@ cursor: pointer;
         }
         .lista-atividade{
             margin-bottom: 20%;
+            width: 70%;
+            margin-left: 15%;
+            
         }
         .atividades-criadas{
-            
             border: 2px solid black;
-            margin-left: -36%;
             border-radius: 10%;
             background-color: white;
             color: black;
             display: flex;
-            height: 100%;
+            height: 200px;
             padding: 5%;
-           
-                    
-            
-        }
-        .li-lista{
-            margin-top: 10%;
+            width: 80%;
         }
         .btns-box{
-            display: flex;
-            justify-content: space-around;
+            position: relative;
+            margin-top: 50%;
+            width: 20%;
+            margin-left: 40%;
+        }
+        .task-box{
+            position: relative;
+            width: 20%;
         }
         .btn-editar{
             background-color: grey;
             margin-top: 4%;
             color: white;
-            border-radius: 100px;
+            border-radius: 5px;
             border: none;
+            width: 70px;
+            height: 30px;
+
             
         }
         .btn-excluir{
             background-color: red;
             color: white;
-            border-radius: 100px;
+            border-radius: 5px;
             border: none;
             margin-top: 4%;
+            width: 70px;
+            height: 30px;
         }
         .titulo-lista{
          margin-left: 4%;

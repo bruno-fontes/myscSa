@@ -14,7 +14,8 @@ let senhaLogin = document.getElementById("senha-login")
 let dataAtividade = document.getElementById("data")
 let atividade = document.getElementById("atividade")
 let pAtividades = document.getElementById('atividades')
-
+let adm = userAdm
+let senhaAdm = 1234
 
 
 function addAtividade() {
@@ -52,6 +53,7 @@ function mostraLista(){
     atividadeArray = JSON.parse(localStorage.getItem("atividade"));
     dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
     for(i=0; i < atividadeArray.length ;i++){
+        let indiceAtividade = i;
         let listaAtividades = document.getElementById('lista-atividade');
         let itensDeLista= document.createElement('li');
         itensDeLista.classList.add('li-lista');
@@ -59,32 +61,23 @@ function mostraLista(){
         let dataDaLista = dataAtividadeArray[i];
         let conteudoDoItem= `
         <div class='atividades-criadas'>
+            <div class='task-box'>
+                <div class='texto-task-box'>
+                    <h class='titulo-lista'>Atividade:</h>
+                    <p class='p-itemLista'>${atividadeDaLista}</p>
+                <div class='data-task-box'
+                    <h class='titulo-lista'>Data:</h>
+                <p class='p-itemLista'>${dataDaLista}</p>
+            </div>
             <div class='btns-box'>
                 <button class='btn-editar' onclick='editarTarefa()'>Editar</button>
-                <button class='btn-excluir'onclick='excluirTarefa()'>Excluir</button>
+                <button class='btn-excluir' onclick='excluir(${indiceAtividade})'>Excluir</button>
             </div>
-             <h class='titulo-lista'>Atividade:</h>
-            <p class='p-itemLista'>${atividadeDaLista}</p>
-            <h class='titulo-lista'>Data:</h>
-            <p class='p-itemLista'>${dataDaLista}</p>
         </div>`;
 
         itensDeLista.innerHTML = conteudoDoItem
         listaAtividades.appendChild(itensDeLista);
     }
-        function excluirTarefa() {
-            
-           
-            atividadeArray = JSON.parse(localStorage.getItem("atividade"));
-            dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
-
-
-            for(i = 0; i < atividadeArray.length; i++){
-                atividadeArray.splice(indice, 1)
-                dataAtividadeArray.splice(indice, 1) 
-            }
-        }
-
 
 
 }
@@ -145,6 +138,11 @@ function logar() {
         
         if(nomeLogin.value == emailArray[i] && senhaLogin.value == senhaArray[i]){        
                       
+            logou = 1
+       }        
+        
+        if(nomeLogin.value == emailArray[i] && senhaLogin.value == senhaArray[i]){        
+                      
              logou = 1
         }        
     } 
@@ -182,3 +180,28 @@ function voltarLogin() {
 function irPaginaLogin(){
     window.location.href="criarConta.html"
 }
+function excluir(indice){
+
+    // Pega valores do LocalStorage (se tiver) e armazena
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
+    
+
+
+     
+        atividadeArray.splice(indice, 1)
+        dataAtividadeArray.splice(indice, 1)
+
+       
+       alert("atividade excluído!")
+
+     
+       localStorage.setItem("atividade", JSON.stringify(atividadeArray))
+       localStorage.setItem("data_atividade", JSON.stringify(dataAtividadeArray))
+
+       window.location.reload();
+    }
+
+
+
+
