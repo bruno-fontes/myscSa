@@ -14,8 +14,7 @@ let senhaLogin = document.getElementById("senha-login")
 let dataAtividade = document.getElementById("data")
 let atividade = document.getElementById("atividade")
 let pAtividades = document.getElementById('atividades')
-let adm = userAdm
-let senhaAdm = 1234
+ 
 
 
 function addAtividade() {
@@ -61,16 +60,30 @@ function mostraLista(){
         let dataDaLista = dataAtividadeArray[i];
         let conteudoDoItem= `
         <div class='atividades-criadas'>
-            <div class='task-box'>
+            <div class='task-box' id='task-box${indiceAtividade}'>
                 <div class='texto-task-box'>
                     <h class='titulo-lista'>Atividade:</h>
                     <p class='p-itemLista'>${atividadeDaLista}</p>
+                </div>
                 <div class='data-task-box'
                     <h class='titulo-lista'>Data:</h>
-                <p class='p-itemLista'>${dataDaLista}</p>
+                    <p class='p-itemLista'>${dataDaLista}</p>
+                </div>
+            </div>
+            <div class='edit-task-box' id='edit-task-box${indiceAtividade}'>
+                <div class='texto-task-box'>
+                    <h class='titulo-lista'>Atividade:</h>
+                    <input id='iptAtividade${indiceAtividade}' class='p-itemLista'>
+                </div>
+                <div class='data-task-box'
+                    <h class='titulo-lista'>Data:</h>
+                    <input id='iptDataAtividade${indiceAtividade}' class='p-itemLista'>
+                    <button class='btn-editar' id='btnConfirm${indiceAtividade}' onclick='confirmaEdicao(${indiceAtividade})
+                    '>confirmar</button>
+                </div>
             </div>
             <div class='btns-box'>
-                <button class='btn-editar' onclick='editarTarefa()'>Editar</button>
+                <button class='btn-editar' onclick='editarTarefa(${indiceAtividade})'>Editar</button>
                 <button class='btn-excluir' onclick='excluir(${indiceAtividade})'>Excluir</button>
             </div>
         </div>`;
@@ -201,6 +214,72 @@ function excluir(indice){
 
        window.location.reload();
     }
+
+let editTarefa = '';
+let tarefaCaixa = '';
+for (let i = 0; i < atividadeArray.length; i++) {
+    editTarefa=  document.getElementById(`edit-task-box${i}`);
+    tarefaCaixa=  document.getElementById(`task-box${i}`);
+    editTarefa.style.display = 'none';
+    tarefaCaixa.style.display = 'block';
+}
+let btnConfirm = document.getElementById('btnConfirm');
+let iptAtividade = '';
+let iptDataAtividade = '';
+
+function editarTarefa(indice){
+    
+    for (let i = 0; i < atividadeArray.length; i++) {
+        iptAtividade = document.getElementById(`iptAtividade${indice}`);
+        iptDataAtividade = document.getElementById(`iptDataAtividade${indice}`);
+        if(i == indice){
+            break;
+        } 
+    }
+    iptAtividade.value = atividadeArray[indice];
+    iptDataAtividade.value = dataAtividadeArray[indice];
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade")); 
+    for (let i = 0; i < atividadeArray.length; i++) {
+        editTarefa=  document.getElementById(`edit-task-box${i}`);
+        tarefaCaixa=  document.getElementById(`task-box${i}`);
+        if(i == indice){
+            break;
+        }
+    }
+    editTarefa.style.display = 'block';
+    tarefaCaixa.style.display = 'none';
+    editTarefa = '';
+    tarefaCaixa = '';
+
+}
+
+
+
+function confirmaEdicao(indice){
+    
+    for (let i = 0; i < atividadeArray.length; i++) {
+        iptAtividade = document.getElementById(`iptAtividade${indice}`);
+        iptDataAtividade = document.getElementById(`iptDataAtividade${indice}`);
+        if(i == indice){
+            break;
+        } 
+    }
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade")); 
+    
+    atividadeArray.splice(indice, 1, iptAtividade.value);
+    dataAtividadeArray.splice(indice, 1, iptDataAtividade.value);
+
+    localStorage.setItem("atividade", JSON.stringify(atividadeArray))
+    localStorage.setItem("data_atividade", JSON.stringify(dataAtividadeArray))
+    
+    window.location.reload();    
+    iptAtividade = '';
+    iptDataAtividade = '';
+}
+
+
 
 
 
