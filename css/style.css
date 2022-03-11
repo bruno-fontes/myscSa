@@ -514,6 +514,11 @@ cursor: pointer;
             position: relative;
             width: 20%;
         }
+        .edit-task-box{
+            position: relative;
+            width: 20%;
+            display: none;
+        }
         .btn-editar{
             background-color: grey;
             margin-top: 4%;
