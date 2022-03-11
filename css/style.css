@@ -55,6 +55,7 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
+    margin-left: 180%;
     
 }
 .texto-link-5:hover{
@@ -66,10 +67,20 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: -500%;
+    margin-left: -470%;
     
 }
 .texto-link-7:hover{
+    color: rgb(101, 196, 188);
+}
+.login-landing{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-left: -437%;
+}
+.login-landing:hover{
     color: rgb(101, 196, 188);
 }
 
@@ -98,19 +109,26 @@ li{
 .texto-link-10:hover{
     color: rgb(101, 196, 188);
 }
+.home-da-langing{
+    font-weight:bold;
+    color: black;
+    font-size: 23px;
+    text-decoration: none;
+    margin-top: 3.5%;
+    position: absolute;
+}
+.home-da-langing:hover{
+    color: rgb(101, 196, 188);
+}
 .logout{
     font-weight:bold;
     color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: -10%;
     margin-top: 3.5%;
     position: absolute;
+    margin-left: 13%;
 }
-.logout:hover{
-    color: rgb(101, 196, 188);
-}
-
 .container-landing{
     background-color: white;
      width: 80%;
@@ -119,11 +137,11 @@ li{
     background-position: center;
     display: flex;
     justify-content: center;
-    border: 2px solid black;
+    
 }
 .footer{
     
-    margin-top: 50%;
+    margin-top: 20%;
     width: 134%;
     margin-left: -34%;
     text-align: center;
@@ -232,17 +250,7 @@ cursor: pointer;
     padding-left: 50px;
 }
 
-.container-cadastro{
-   display: none;
-    margin-top: 50px;
-    width: 20%;
-    padding: 30px;
-    border: 3px solid rgba(194,255,250,1);
-    border-radius: 10px;
-    margin-left: 37.5%;
-    background-color: #fff;
-    
-}
+
 .container-maeDoBasitt{
  display: flex;
  justify-content: center;
@@ -254,6 +262,7 @@ cursor: pointer;
     padding: 30px;
     border-radius: 10px;
     background-color: #fff; 
+    
      
 }
 .container-lista , .container-adicionar{
@@ -267,6 +276,7 @@ cursor: pointer;
     background-color: rgba(218,216,216,1) 100%;
     height: 50rem;
     overflow-y: scroll;
+    
     }
 
 
@@ -302,16 +312,27 @@ cursor: pointer;
 
 .container-login{
 
-    margin-top: 50px;
+    margin-top: 3.7%;
     width: 20%;
     padding: 30px;
     border: 3px solid rgba(194,255,250,1);
     border-radius: 10px;
-    margin-left: 37.5%;
+    margin-left: 37%;
     background-color: #fff;
     
             
 }
+.container-cadastro{
+    display: none;
+     margin-top: 3.7%;
+     width: 20%;
+     padding: 30px;
+     border: 3px solid rgba(194,255,250,1);
+     border-radius: 10px;
+     margin-left: 37%;
+     background-color: #fff;
+     
+ }
 #h3Container{
     text-align: center;
     margin-top: auto;
