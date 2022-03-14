@@ -153,29 +153,38 @@ function criarConta() {
 function logar() {
     emailArray = JSON.parse(localStorage.getItem('emailCadastro'))
     senhaArray = JSON.parse(localStorage.getItem('senhaCadastro'))
+    let emailAdm = "adm@adm.com"
+    let senhaAdm = 123456789
+    let iptEmail = document.getElementById('email-login');
+    let iptSenha = document.getElementById('senha-login');
         
     let logou = 0
     for(i=0; i < emailArray.length; i++){
         
-        if(nomeLogin.value == emailArray[i] && senhaLogin.value == senhaArray[i]){        
+        if(emailAdm == iptEmail.value && senhaAdm == iptSenha.value){        
                       
-            logou = 1
+            logou = 2;
+            break;
        }        
         
-        if(nomeLogin.value == emailArray[i] && senhaLogin.value == senhaArray[i]){        
+        if(nomeLogin == emailArray[i] && senhaLogin == senhaArray[i]){        
                       
-             logou = 1
+             logou = 1;
         }        
     } 
     if (logou == 1){
         alert("Login efetuado!")
         window.location.href="listaAtividade.html"
 
+    }else if(logou == 2){
+        
+            alert("Login por adm!")
+            window.location.href="adm.html"
+        
     }else{
-        
-            alert("Login falhou!")
-            window.location.href="criarconta.html"
-        
+        alert("login Falhou!")
+        window.location.href="criaconta.html"
+
     }   
         
 }
