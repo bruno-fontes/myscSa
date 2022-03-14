@@ -281,6 +281,13 @@ function confirmaEdicao(indice){
 
 
 
-
-
+function sumir(){
+    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
+    dataAtividadeArray = JSON.parse(localStorage.getItem('data_atividade'))
+    let containerLista = document.getElementById('container-lista');
+    if(atividadeArray == ""){
+        containerLista.style.overflowY = 'unset';
+    }
+}
+sumir()
 
