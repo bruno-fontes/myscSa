@@ -139,6 +139,14 @@ function criarConta() {
     }
         alert('Conta criada com sucesso')
         
+        let divLogin = document.getElementById('container-login')
+        let divCadastro = document.getElementById('container-cadastro')
+        divLogin.style.display = 'block'
+        divCadastro.style.display = 'none'
+        localStorage.setItem("atividades", JSON.stringify(atividades))
+        dataAtividade.value = ""
+        atividade.value = ""
+        	
 }
 
 
