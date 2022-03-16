@@ -285,6 +285,23 @@ cursor: pointer;
     overflow-y: scroll;
     
     }
+.container-listaADM{
+    background-color: rgb(255, 255, 255);
+    height: 70rem;
+    padding: 2% 0;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+.container-lista2{
+    background-color: rgb(151, 151, 151);
+    border-radius: 20px ;
+    height: 60rem;
+    overflow-y: scroll;
+    width: 50%;
+    margin: 5% 0 2% 25%;
+}
     
 
 
@@ -527,24 +544,26 @@ cursor: pointer;
             
         }
         .atividades-criadas{
-            border: 2px solid black;
-            border-radius: 10%;
+            border: 5px solid rgb(240, 240, 240);
+            border-radius: 20px;
             background-color: white;
             color: black;
             display: flex;
             height: 200px;
             padding: 5%;
             width: 80%;
+            margin: 5% 0 5% -7%;
         }
         .btns-box{
-            position: relative;
+            display: flex;
             margin-top: 50%;
-            width: 20%;
-            margin-left: 40%;
+            width: 50%;
+            margin-left: 10%;
         }
         .task-box{
             position: relative;
             width: 20%;
+            
         }
         .edit-task-box{
             position: relative;
@@ -580,5 +599,7 @@ cursor: pointer;
         
         }
 
-        
+@media screen and (max-width:px){
+    
+}
         
