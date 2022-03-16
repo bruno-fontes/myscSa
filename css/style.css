@@ -684,5 +684,149 @@ cursor: pointer;
     }
 } 
 @media screen and (max-width:670px){
-    
+    .lista-nav-2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: -10%;
+    }
+    .btns-box {
+        display: flex;
+        margin-top: 97%;
+        width: 50%;
+        margin-left: -2.5%;
+    }
 }
+@media screen and (max-width:634px){
+    .lista-nav-2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 5%;
+        margin-left: -18%;
+    }
+    .container-lista, .container-adicionar {
+        display: inline-block;
+        width: 40%;
+        margin-left: 24%;
+        margin-top: 5%;
+        vertical-align: top;
+    }
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        height: 200px;
+        padding: 5%;
+        width: 80%;
+        margin: 5% 0 5%;
+    }
+    #h3Container {
+        text-align: center;
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+}
+@media screen and (max-width:594px){
+    .lista-nav-2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+        margin-left: -24%;
+    }
+    .btns-box {
+        display: flex;
+        margin-top: 110%;
+        width: 50%;
+        margin-left: -10.5%;
+    }
+}
+@media screen and (max-width:562px){
+    .logout {
+        font-weight: bold;
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        margin-left: 20%;
+    }
+}
+@media screen and (max-width:534px){
+    .logout {
+        font-weight: bold;
+        color: black;
+        font-size: 23px;
+        text-decoration: none;
+        margin-left: 1%;
+    }
+    .btns-box {
+        display: flex;
+        margin-top: 125%;
+        width: 50%;
+        margin-left: -15.5%;
+    }
+}
+@media screen and (max-width:522px){
+    .lista-nav-2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 7%;
+        margin-left: -30%;
+    }
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        height: 200px;
+        padding: 5%;
+        width: 80%;
+        margin: 5% 0 5% -9%;
+    }
+    .h-logo {
+        color: rgb(19, 19, 19);
+        margin-left: -20%;
+        margin-top: -27%;
+        width: 210px;
+    }
+}
+@media screen and (max-width:462px){
+    .texto-link-4 {
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .texto-link-5 {
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+    }
+    .logout {
+        font-weight: bold;
+        color: black;
+        font-size: 20px;
+        text-decoration: none;
+        margin-left: 1%;
+    }
+    .btns-box {
+        display: flex;
+        margin-top: 145%;
+        width: 50%;
+        margin-left: -20.5%;
+    }
+    .lista-nav-2 {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin-top: 10%;
+        margin-left: -30%;
+    }
+}
+@media screen and (max-width:462px){}
