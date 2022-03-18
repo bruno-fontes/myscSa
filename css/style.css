@@ -150,15 +150,23 @@ li{
     text-align: center;
     width: 134%;
     margin-left: -34%;
-    background-color: rgb(32, 30, 30, 0.5);
+    background-color: white;
     height: 100px;
+}
+.footer-cc{
+    text-align: center;
+    width: 134%;
+    margin-left: -34%;
+    background-color: white;
+    height: 100px;
+    margin-top: 20%;
 }
 .footer-landing{
     margin-top: 50%;
     width: 167.3%;
     margin-left: -34%;
     text-align: center;
-    background-color: rgb(32, 30, 30, 0.5);
+    background-color: white;
     height: 100px;
 
 }
@@ -605,6 +613,21 @@ cursor: pointer;
                 width: 70px;
                 height: 30px;
             }
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 22%;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 3.5%;
+                margin-right: 47.5%;
+            }
             .btn-excluir {
                 background-color: red;
                 color: white;
@@ -615,6 +638,126 @@ cursor: pointer;
                 height: 30px;
             }
         }
+        @media screen and (max-width:1785px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 23%;
+            }
+        }
+        @media screen and (max-width:1720px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 24.5%;
+            }
+        }
+        @media screen and (max-width:1636px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 25.5%;
+            }
+        }
+        @media screen and (max-width:1564px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 26.5%;
+            }
+        }
+        @media screen and (max-width:1524px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 27.5%;
+            }
+        }
+        @media screen and (max-width:1484px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 28.5%;
+            }
+        }
+        @media screen and (max-width:1444px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 29.5%;
+            }
+        }
+        @media screen and (max-width:1412px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 30.5%;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 3.5%;
+                margin-right: 45.5%;
+            }
+        }
+        @media screen and (max-width:1364px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 31.5%;
+            }
+        }
+        @media screen and (max-width:1332px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 32.5%;
+            }
+        }
+        @media screen and (max-width:1292px){
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 100px;
+                margin-top: 33.5%;
+            }
+
+            
+        }
+
         @media screen and (max-width:1526px){
             .btns-box {
                 display: flex;
