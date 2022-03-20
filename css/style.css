@@ -154,14 +154,7 @@ li{
     height: 100px;
     margin-top: 6.5%;
 }
-.footer-cc{
-    text-align: center;
-    width: 134%;
-    margin-left: -34%;
-    background-color: white;
-    height: 100px;
-    margin-top: 6.5%;
-}
+
 .footer-landing{
     margin-top: 15%;
     width: 167.3%;
@@ -281,6 +274,7 @@ cursor: pointer;
     
      
 }
+
 .container-lista , .container-adicionar{
     display: inline-block;
     width: 40%;
@@ -375,6 +369,9 @@ cursor: pointer;
     
     
     
+}
+#h3Container-cc1{
+    margin-left: 2%;
 }
 #atividades{
     font-family: Verdana;
@@ -706,7 +703,7 @@ cursor: pointer;
                 font-size: 20px;
             }
             .h2-footer {
-                margin-left: 25%;
+                margin-left: 23%;
                 font-size: 30px;
             }
             .p-footer{
@@ -723,8 +720,102 @@ cursor: pointer;
             }
             .contatos-footer {
                 margin-top: -0.5%;
-                margin-left: 25%;
+                margin-left: 23%;
             }
+            .footer-cc {
+                text-align: center;
+                width: 134%;
+                margin-left: -34%;
+                background-color: white;
+                height: 220px;
+                margin-top: 6.5%;
+            }
+            #h3Container-cc1 {
+                margin-left: 37%;
+                font-size: 40px;
+                margin-top: 1%;
+            }
+            #email-login, #senha-login, #email, #user, #nome, #senha::placeholder{
+                font-size: 30px;
+            }
+            .btn-logar {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                cursor: pointer;
+                font-family: 'Noto Sans Mono';
+                font-size: 30px;
+            }
+            .btn-nao-possuo-conta {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                cursor: pointer;
+                font-family: 'Noto Sans Mono';
+                font-size: 30px;
+            }
+            .texto-link-2 {
+                font-weight: bold;
+                color: black;
+                font-size: 33px;
+                text-decoration: none;
+            }
+            .texto-link-3 {
+                font-weight: bold;
+                color: black;
+                font-size: 33px;
+                text-decoration: none;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 3.5%;
+                margin-right: 48%;
+            }
+            .h-logo2 {
+                color: rgb(19, 19, 19);
+                margin-left: -2%;
+                margin-top: -8%;
+                width: 50%;
+            }
+           
+            #h3Container-cc2 {
+                margin-left: 26%;
+                font-size: 40px;
+                margin-top: 1%;
+            }
+            .btn-ja-possuo-conta {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                font-family: 'Noto Sans Mono';
+                cursor: pointer;
+                font-size: 33px;
+            }
+            .btn-criar-conta2 {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                font-family: 'Noto Sans Mono';
+                cursor: pointer;
+                font-size: 33px;
+            }
+            .btn-ja-possuo-conta {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                font-family: 'Noto Sans Mono';
+                cursor: pointer;
+                font-size: 33px;
+                margin-left: 14%;
+            }
+            
         }
         @media screen and (max-width:1440px){
             .nav-container {
@@ -845,6 +936,97 @@ cursor: pointer;
                 margin-top: -1.5%;
                 margin-left: 25%;
             }
+            
+            .texto-link-2 {
+                font-weight: bold;
+                color: black;
+                font-size: 23px;
+                text-decoration: none;
+            }
+            .texto-link-3 {
+                font-weight: bold;
+                color: black;
+                font-size: 23px;
+                text-decoration: none;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+                margin-right: 46.5%;
+            }
+            #h3Container-cc1 {
+                margin-left: 37%;
+                font-size: 28px;
+                margin-top: 1%;
+            }
+            #email-login, #senha-login, #email, #user, #nome, #senha::placeholder {
+                font-size: 20px;
+            }
+            .btn-logar {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                cursor: pointer;
+                font-family: 'Noto Sans Mono';
+                font-size: 21px;
+            }
+            .btn-nao-possuo-conta {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 3%;
+                border-radius: 10%;
+                cursor: pointer;
+                font-family: 'Noto Sans Mono';
+                font-size: 21px;
+                margin-left: 17%;
+            }
+            .footer-cc {
+                text-align: center;
+                width: 136%;
+                margin-left: -34%;
+                background-color: white;
+                height: 120px;
+                margin-top: 30.6%;
+            }
+            .h-logo2 {
+                color: rgb(19, 19, 19);
+                margin-left: 3%;
+                margin-top: -11%;
+                width: 35%;
+            }
+            #h3Container-cc2 {
+                margin-left: 22%;
+                font-size: 28px;
+                margin-top: 1%;
+            }
+            .btn-criar-conta2 {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                font-family: 'Noto Sans Mono';
+                cursor: pointer;
+                font-size: 21px;
+            }
+            .btn-ja-possuo-conta {
+                background-color: rgba(194,255,250,1);
+                border: none;
+                padding: 4%;
+                border-radius: 10%;
+                font-family: 'Noto Sans Mono';
+                cursor: pointer;
+                font-size: 21px;
+                margin-left: 14%;
+            }
+            .btns-div-2 {
+                display: flex;
+                justify-content: space-between;
+                margin-top: -5%;
+            }
+
 
         }
         @media screen and (max-width:1344px){
@@ -856,6 +1038,21 @@ cursor: pointer;
                 height: 124px;
                 margin-top: 0.5%;
             }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 2.5%;
+                margin-right: 45.5%;
+            }
+            .footer-cc {
+                text-align: center;
+                width: 136%;
+                margin-left: -34%;
+                background-color: white;
+                height: 124px;
+                margin-top: 30.6%;
+            }
         }
         @media screen and (max-width:1332px){
             .footer {
@@ -866,6 +1063,14 @@ cursor: pointer;
                 height: 127px;
                 margin-top: 0.5%;
             }
+            .footer-cc {
+                text-align: center;
+                width: 136%;
+                margin-left: -34%;
+                background-color: white;
+                height: 127px;
+                margin-top: 30.6%;
+            }
         }
         @media screen and (max-width:1316px){
             .footer {
@@ -875,6 +1080,14 @@ cursor: pointer;
                 background-color: white;
                 height: 131px;
                 margin-top: 0.5%;
+            }
+            .footer-cc {
+                text-align: center;
+                width: 136%;
+                margin-left: -34%;
+                background-color: white;
+                height: 131px;
+                margin-top: 30.6%;
             }
             .lista-nav-2 {
                 list-style: none;
@@ -893,6 +1106,14 @@ cursor: pointer;
             height: 138px;
             margin-top: 0.5%;
         }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 138px;
+            margin-top: 30.6%;
+        }
     }
     @media screen and (max-width:1276px){
         .footer {
@@ -903,15 +1124,23 @@ cursor: pointer;
             height: 143px;
             margin-top: 0.5%;
         }
-    }
-    @media screen and (max-width:1252px){
-        .footer {
+        .footer-cc {
             text-align: center;
             width: 136%;
             margin-left: -34%;
             background-color: white;
-            height: 149px;
-            margin-top: 0.5%;
+            height: 148px;
+            margin-top: 30.6%;
+        }
+    }
+    @media screen and (max-width:1252px){
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 147px;
+            margin-top: 30.6%;
         }
         .nav-container {
             background-color: rgb(255, 255, 255);
@@ -934,6 +1163,12 @@ cursor: pointer;
             margin-top: -11%;
             width: 39%;
         }
+        .h-logo2 {
+            color: rgb(19, 19, 19);
+            margin-left: 3%;
+            margin-top: -11%;
+            width: 39%;
+        }
     }
     @media screen and (max-width:1195px){
         .footer {
@@ -943,6 +1178,14 @@ cursor: pointer;
             background-color: white;
             height: 140px;
             margin-top: 3.5%;
+        }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 170px;
+            margin-top: 30.6%;
         }
         .btns-box {
             display: flex;
@@ -970,6 +1213,14 @@ cursor: pointer;
             background-color: white;
             height: 147px;
             margin-top: 3.5%;
+        }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 178px;
+            margin-top: 30.6%;
         }
         .atividades-criadas {
             border: 5px solid rgb(240, 240, 240);
@@ -999,6 +1250,14 @@ cursor: pointer;
             height: 153px;
             margin-top: 3.5%;
         }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 190px;
+            margin-top: 30.6%;
+        }
     }
     @media screen and (max-width:1123px){
         .footer {
@@ -1009,6 +1268,39 @@ cursor: pointer;
             
             margin-top: -5.5%;
         }
+        .h-logo2 {
+            color: rgb(19, 19, 19);
+            margin-left: -2%;
+            margin-top: -11%;
+            width: 42%;
+        }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 193px;
+            margin-top: 30.6%;
+        }
+        #h3Container-cc1 {
+            margin-left: 34%;
+            font-size: 28px;
+            margin-top: 1%;
+        }
+        #h3Container-cc2 {
+            margin-left: 16%;
+            font-size: 28px;
+            margin-top: 1%;
+        }
+        .btn-ja-possuo-conta {
+            background-color: rgba(194,255,250,1);
+            border: none;
+            padding: 0%;
+            border-radius: 10%;
+            font-family: 'Noto Sans Mono';
+            cursor: pointer;
+            margin-left: 12%;
+        }
     }
     @media screen and (max-width:1071px){
         .footer {
@@ -1018,15 +1310,16 @@ cursor: pointer;
             background-color: white;
             margin-top: -5.4%;
         }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 193px;
+            margin-top: 32.6%;
+        }
     }
-    @media screen and (max-width:1071px){
-        .footer {
-        text-align: center;
-        width: 136%;
-        margin-left: -34%;
-        background-color: white;
-        margin-top: -5%;
-    }
+    
 }
 @media screen and (max-width:1071px){
     .btn-adicionar {
@@ -1063,6 +1356,12 @@ cursor: pointer;
         margin-top: 3.2%;
         margin-right: 30.42%;
     }
+    .h-logo2 {
+        color: rgb(19, 19, 19);
+        margin-left: -6%;
+        margin-top: -13%;
+        width: 46%;
+    }
 }
 @media screen and (max-width:1045px){
     .footer {
@@ -1079,6 +1378,20 @@ cursor: pointer;
         margin-top: 3.2%;
         margin-right: 28.42%;
     }
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 33.6%;
+    }
+    .h-logo2 {
+        color: rgb(19, 19, 19);
+        margin-left: -2%;
+        margin-top: -12%;
+        width: 46%;
+    }
 }
 @media screen and (max-width:1024px){
     .h-logo {
@@ -1094,6 +1407,16 @@ cursor: pointer;
         text-decoration: none;
         margin-left: 161%;
     }
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 34.6%;
+    }
+    
+    
 }
 @media screen and (max-width:992px){
     .footer {
@@ -1114,6 +1437,14 @@ cursor: pointer;
         width: 80%;
         margin: 5% 0 5% -19%;
     }
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 36.6%;
+    }
 
 }
 @media screen and (max-width:992px){
@@ -1129,6 +1460,46 @@ cursor: pointer;
         margin-top: 75%;
         width: 50%;
         margin-left: 10%;
+    }
+}
+@media screen and (max-width:958px){
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 37.6%;
+    }
+}
+@media screen and (max-width:938px){
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 38.6%;
+    }
+}
+@media screen and (max-width:914px){
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 40.6%;
+    }
+}
+@media screen and (max-width:878px){
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 41.6%;
     }
 }
 @media screen and (max-width:908px){
@@ -1225,6 +1596,16 @@ cursor: pointer;
     
     
 }
+@media screen and (max-width:866px){
+    .footer-cc {
+        text-align: center;
+        width: 136%;
+        margin-left: -34%;
+        background-color: white;
+        height: 193px;
+        margin-top: 43.6%;
+    }
+}
     @media screen and (max-width:846px){
         .footer {
             text-align: center;
@@ -1251,6 +1632,33 @@ cursor: pointer;
             margin: 5% 0 5% -23%;
         }
     }
+    @media screen and (max-width:826px){
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 193px;
+            margin-top: 44.6%;
+        }
+        #h3Container-cc1 {
+            margin-left: 30%;
+            font-size: 28px;
+            margin-top: 1%;
+        }
+        .h-logo2 {
+            color: rgb(19, 19, 19);
+            margin-left: -9%;
+            margin-top: -18%;
+            width: 66%;
+        }
+        #h3Container-cc2 {
+            margin-left: 16%;
+            font-size: 20px;
+            margin-top: 1%;
+        }
+    }
+    
     @media screen and (max-width:806px){
         .h-logo {
             color: rgb(19, 19, 19);
@@ -1278,6 +1686,14 @@ cursor: pointer;
             text-decoration: none;
             margin-left: 158%;
         }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 193px;
+            margin-top: 46.6%;
+        }
     }
     @media screen and (max-width:774px){
         .footer {
@@ -1286,6 +1702,14 @@ cursor: pointer;
             margin-left: -34%;
             background-color: white;
             margin-top: 6%;
+        }
+        .footer-cc {
+            text-align: center;
+            width: 136%;
+            margin-left: -34%;
+            background-color: white;
+            height: 193px;
+            margin-top: 48.6%;
         }
     }
     @media screen and (max-width:774px){
@@ -1875,41 +2299,14 @@ cursor: pointer;
             margin-top: 14%;
         }
     }
-    @media screen and (max-width:1830px){
-        .lista-nav {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 3.5%;
-            margin-right: 47.5%;
-        }
-    }
+    
             
             
         
         
-        @media screen and (max-width:1636px){
-            
-
-            .lista-nav {
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                margin-top: 3.5%;
-                margin-right: 46.5%;
-            }
-        }
         
-        @media screen and (max-width:1412px){
-            
-            .lista-nav {
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                margin-top: 3.5%;
-                margin-right: 45.5%;
-            }
-        }
+        
+        
         
         @media screen and (max-width:1250px){
             
@@ -1933,24 +2330,7 @@ cursor: pointer;
             
         }
         
-        @media screen and (max-width:1168px){
-            
-            .btn-ja-possuo-conta {
-                background-color: rgba(194,255,250,1);
-                border: none;
-                padding: 0%;
-                border-radius: 10%;
-                font-family: 'Noto Sans Mono';
-                cursor: pointer;
-                margin-left: 2%;
-            }
-            .btns-div-2 {
-                display: flex;
-                justify-content: space-between;
-                margin-top: -10%;
-            }
-        }
-        
+       
         @media screen and (max-width:1044px){
             
             
@@ -1985,28 +2365,10 @@ cursor: pointer;
             }
         }
         
-        @media screen and (max-width:912px){
+        
             
-            .btn-nao-possuo-conta {
-                background-color: rgba(194,255,250,1);
-                border: none;
-                padding: 1%;
-                border-radius: 10%;
-                cursor: pointer;
-                font-family: 'Noto Sans Mono';
-                font-size: 12px;
-                margin-left: 20%;
-            }
-            .btn-logar {
-                background-color: rgba(194,255,250,1);
-                border: none;
-                padding: 4%;
-                border-radius: 10%;
-                cursor: pointer;
-                font-family: 'Noto Sans Mono';
-                font-size: 12px;
-            }
-        }
+            
+           
         @media screen and (max-width:896px){
             
             .lista-nav {
@@ -2027,24 +2389,32 @@ cursor: pointer;
                 margin-left: 28%;
                 background-color: #fff;
             }
-            .btn-logar {
-                background-color: rgba(194,255,250,1);
-                border: none;
-                padding: 4%;
-                border-radius: 10%;
-                cursor: pointer;
-                font-family: 'Noto Sans Mono';
-                font-size: 15px;
+            .container-cadastro {
+                display: none;
+                margin-top: 3.7%;
+                width: 40%;
+                padding: 30px;
+                border-radius: 10px;
+                margin-left: 28%;
+                background-color: #fff;
             }
-            .btn-nao-possuo-conta {
-                background-color: rgba(194,255,250,1);
-                border: none;
-                padding: 1%;
-                border-radius: 10%;
-                cursor: pointer;
-                font-family: 'Noto Sans Mono';
-                font-size: 15px;
-                margin-left: 20%;
+            #h3Container-cc2 {
+                margin-left: 24%;
+                font-size: 28px;
+                margin-top: 1%;
+            }
+            .footer-cc {
+                text-align: center;
+                width: 136%;
+                margin-left: -34%;
+                background-color: white;
+                height: 193px;
+                margin-top: 50.6%;
+            }
+            #h3Container-cc1 {
+                margin-left: 36%;
+                font-size: 28px;
+                margin-top: 1%;
             }
             .logout {
                 font-weight: bold;
