@@ -815,8 +815,93 @@ cursor: pointer;
                 font-size: 33px;
                 margin-left: 14%;
             }
+            .texto-link-1 {
+                font-weight: bold;
+                color: black;
+                font-size: 33px;
+                text-decoration: none;
+            }
+            .texto-link-6 {
+                font-weight: bold;
+                color: black;
+                font-size: 33px;
+                text-decoration: none;
+            }
+            .container-landing {
+                background-color: white;
+                width: 80%;
+                margin-left: 10%;
+                height: 1125px;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+            }
+            .contatos-footer-landing {
+                margin-top: -1%;
+            }
+            .footer-landing {
+                margin-top: 10%;
+                width: 167.3%;
+                margin-left: -34%;
+                text-align: center;
+                background-color: white;
+                height: 220px;
+            }
+            .h2-footer-landing{
+                font-size: 30px;
+            }
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 12%;
+            }
+            .p-home {
+                font-size: 30px;
+                font-family: Noto Sans Mono;
+            }
+            .titulo-introducao {
+                font-size: 45px;
+            }
+            .p-home-metade {
+                margin-left: 5%;
+                font-size: 30px;
+                font-family: Noto Sans Mono;
+            }
+            .titulo-introducao-metade {
+                margin-left: 6%;
+                font-size: 40px;
+            }
+            .btn-index {
+                padding: 30px;
+                font-size: 30px;
+                margin-left: 35%;
+                background-color: black;
+                border: none;
+                border-radius: 72px;
+                color: white;
+                cursor: pointer;
+                width: 32%;
+                height: 46%;
+            }
+            
+           
             
         }
+        @media screen and (max-width:2249px){
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 5%;
+            }
+        }
+        @media screen and (max-width:1849px){
+          
+        }
+        
         @media screen and (max-width:1440px){
             .nav-container {
                 background-color: rgb(255, 255, 255);
