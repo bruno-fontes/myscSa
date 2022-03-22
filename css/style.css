@@ -703,7 +703,7 @@ cursor: pointer;
                 font-size: 20px;
             }
             .h2-footer {
-                margin-left: 19%;
+                margin-left: 22%;
                 font-size: 30px;
             }
             .p-footer{
@@ -720,7 +720,7 @@ cursor: pointer;
             }
             .contatos-footer {
                 margin-top: -0.5%;
-                margin-left: 23%;
+                margin-left: 22%;
             }
             .footer-cc {
                 text-align: center;
@@ -773,7 +773,7 @@ cursor: pointer;
                 display: flex;
                 justify-content: center;
                 margin-top: 3.5%;
-                margin-right: 48%;
+                margin-right: 45%;
             }
             .h-logo2 {
                 color: rgb(19, 19, 19);
@@ -840,7 +840,7 @@ cursor: pointer;
                 margin-top: -1%;
             }
             .footer-landing {
-                margin-top: 10%;
+                margin-top: 6%;
                 width: 167.3%;
                 margin-left: -34%;
                 text-align: center;
@@ -855,7 +855,7 @@ cursor: pointer;
                 margin-left: 20%;
                 text-align: center;
                 overflow: hidden;
-                margin-top: 12%;
+                margin-top: 18%;
             }
             .p-home {
                 font-size: 30px;
@@ -884,10 +884,20 @@ cursor: pointer;
                 cursor: pointer;
                 width: 32%;
                 height: 46%;
+                margin-top: 5%;
             }
             
            
             
+        }
+        @media screen and (max-width:2430px){
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 15%;
+            } 
         }
         @media screen and (max-width:2249px){
             .caixa-de-texto {
@@ -895,11 +905,147 @@ cursor: pointer;
                 margin-left: 20%;
                 text-align: center;
                 overflow: hidden;
-                margin-top: 5%;
+                margin-top: 9%;
             }
         }
-        @media screen and (max-width:1849px){
-          
+        @media screen and (max-width:2098px){
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 5%;
+            }
+            .footer-landing {
+                margin-top: 10%;
+                width: 167.3%;
+                margin-left: -34%;
+                text-align: center;
+                background-color: white;
+                height: 220px;
+            }
+        }
+        @media screen and (max-width:1930px){
+            .caixa-de-texto-metade {
+                display: inline-block;
+                width: 45%;
+                background-color: white;
+                margin-top: 5%;
+                height: 324px;
+            }
+            .btn-index {
+                padding: 30px;
+                font-size: 30px;
+                margin-left: 35%;
+                background-color: black;
+                border: none;
+                border-radius: 72px;
+                color: white;
+                cursor: pointer;
+                width: 32%;
+                height: 46%;
+                margin-top: 1%;
+            }
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: 0%;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 3.5%;
+                margin-right: 44%;
+            }
+        }
+        @media screen and (max-width:1830px){
+            .p-home-metade {
+                margin-left: 5%;
+                font-size: 27px;
+                font-family: Noto Sans Mono;
+            }
+            .p-home {
+                font-size: 27px;
+                font-family: Noto Sans Mono;
+            }
+        }
+        @media screen and (max-width:1802px){
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: -53%;
+            }
+            .footer-landing {
+                margin-top: 17%;
+                width: 167.3%;
+                margin-left: -34%;
+                text-align: center;
+                background-color: white;
+                height: 220px;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 4.5%;
+                margin-right: 44%;
+            }
+        }
+        @media screen and (max-width:1514px){
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 5.5%;
+                margin-right: 42%;
+            }
+            .img-container {
+                width: 478px;
+                height: 533px;
+                margin-left: 7%;
+            }
+            .btn-index {
+                padding: 30px;
+                font-size: 30px;
+                margin-left: 42%;
+                background-color: black;
+                border: none;
+                border-radius: 72px;
+                color: white;
+                cursor: pointer;
+                width: 46%;
+                height: 46%;
+                margin-top: 1%;
+            }
+            .container-landing {
+                background-color: white;
+                width: 80%;
+                margin-left: 10%;
+                height: 1171px;
+                background-position: center;
+                display: flex;
+                justify-content: center;
+            }
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: -60%;
+            }
+            .footer-landing {
+                margin-top: 11%;
+                width: 167.3%;
+                margin-left: -34%;
+                text-align: center;
+                background-color: white;
+                height: 220px;
+            }
         }
         
         @media screen and (max-width:1440px){
@@ -1111,8 +1257,61 @@ cursor: pointer;
                 justify-content: space-between;
                 margin-top: -5%;
             }
+            .texto-link-1 {
+                font-weight: bold;
+                color: black;
+                font-size: 23px;
+                text-decoration: none;
+            }
+            .texto-link-6 {
+                font-weight: bold;
+                color: black;
+                font-size: 23px;
+                text-decoration: none;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 2%;
+                margin-right: 44.5%;
+            }
 
 
+        }
+        @media screen and (max-width:1432px){
+            .img-container {
+                width: 478px;
+                height: 560px;
+                margin-left: 3%;
+            }
+            .btn-index {
+                padding: 30px;
+                font-size: 30px;
+                margin-left: 42%;
+                background-color: black;
+                border: none;
+                border-radius: 72px;
+                color: white;
+                cursor: pointer;
+                width: 46%;
+                height: 46%;
+                margin-top: -2%;
+            }
+        }
+        @media screen and (max-width:1368px){
+            .img-container {
+                width: 478px;
+                height: 560px;
+                margin-left: -1%;
+            }
+            .caixa-de-texto {
+                width: 60%;
+                margin-left: 20%;
+                text-align: center;
+                overflow: hidden;
+                margin-top: -64%;
+            }
         }
         @media screen and (max-width:1344px){
             .footer {
@@ -1138,6 +1337,7 @@ cursor: pointer;
                 height: 124px;
                 margin-top: 30.6%;
             }
+
         }
         @media screen and (max-width:1332px){
             .footer {
@@ -1155,6 +1355,13 @@ cursor: pointer;
                 background-color: white;
                 height: 127px;
                 margin-top: 30.6%;
+            }
+            .lista-nav {
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-top: 2.5%;
+                margin-right: 43.5%;
             }
         }
         @media screen and (max-width:1316px){
