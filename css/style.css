@@ -112,7 +112,7 @@ li{
     color: black;
     font-size: 23px;
     text-decoration: none;
-    margin-left: 400%;
+    
     
 }
 .logout:hover{
@@ -628,14 +628,14 @@ cursor: pointer;
                 color: black;
                 font-size: 33px;
                 text-decoration: none;
-                margin-left: 499%;
+               
             }
             .lista-nav-2 {
                 list-style: none;
                 display: flex;
                 justify-content: center;
                 margin-top: 3.5%;
-                margin-right: 39.42%;
+                margin-right: 41.42%;
             }
             #h3Container-adicionar {
                 text-align: center;
@@ -703,7 +703,7 @@ cursor: pointer;
                 font-size: 20px;
             }
             .h2-footer {
-                margin-left: 23%;
+                margin-left: 19%;
                 font-size: 30px;
             }
             .p-footer{
@@ -929,20 +929,20 @@ cursor: pointer;
                 color: black;
                 font-size: 23px;
                 text-decoration: none;
-                margin-left: 349%;
+               
             }
             .lista-nav-2 {
                 list-style: none;
                 display: flex;
                 justify-content: center;
                 margin-top: 2%;
-                margin-right: 35.42%;
+                margin-right: 41.42%;
             }
             .h-logo {
                 color: rgb(19, 19, 19);
-                margin-left: -4%;
-                margin-top: -10%;
-                width: 35%;
+                margin-left: -15%;
+                margin-top: -32%;
+                width: 183px;
             }
             #h3Container-adicionar {
                 text-align: center;
@@ -1019,7 +1019,7 @@ cursor: pointer;
             }
             .contatos-footer {
                 margin-top: -1.5%;
-                margin-left: 25%;
+                margin-left: 19%;
             }
             
             .texto-link-2 {
@@ -1078,9 +1078,9 @@ cursor: pointer;
             }
             .h-logo2 {
                 color: rgb(19, 19, 19);
-                margin-left: 3%;
-                margin-top: -11%;
-                width: 35%;
+                margin-left: -15%;
+                margin-top: -32%;
+                width: 183px;
             }
             #h3Container-cc2 {
                 margin-left: 22%;
@@ -1174,13 +1174,7 @@ cursor: pointer;
                 height: 131px;
                 margin-top: 30.6%;
             }
-            .lista-nav-2 {
-                list-style: none;
-                display: flex;
-                justify-content: center;
-                margin-top: 2%;
-                margin-right: 33.42%;
-            }
+            
         }
         @media screen and (max-width:1296px){
             .footer {
@@ -1235,24 +1229,18 @@ cursor: pointer;
             margin-bottom: 15px;
             width: 102%;
         }
-        .lista-nav-2 {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 2.5%;
-            margin-right: 33.42%;
-        }
+        
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -4%;
-            margin-top: -11%;
-            width: 39%;
+            margin-left: -15%;
+            margin-top: -32%;
+            width: 183px;
         }
         .h-logo2 {
             color: rgb(19, 19, 19);
-            margin-left: 3%;
-            margin-top: -11%;
-            width: 39%;
+            margin-left: -15%;
+            margin-top: -32%;
+            width: 183px;
         }
     }
     @media screen and (max-width:1195px){
@@ -1278,17 +1266,8 @@ cursor: pointer;
             width: 50%;
             margin-left: 10%;
         }
-        .lista-nav-2 {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 2.5%;
-            margin-right: 30.42%;
-        }
-        .contatos-footer {
-            margin-top: -1.5%;
-            margin-left: 25%;
-        }
+       
+       
     }
     @media screen and (max-width:1163px){
         .footer {
@@ -1323,7 +1302,7 @@ cursor: pointer;
             color: black;
             font-size: 23px;
             text-decoration: none;
-            margin-left: 352%;
+           
         }
     }
     @media screen and (max-width:1139px){
@@ -1460,8 +1439,8 @@ cursor: pointer;
         list-style: none;
         display: flex;
         justify-content: center;
-        margin-top: 3.2%;
-        margin-right: 28.42%;
+        margin-top: 3%;
+        margin-right: 37.42%;
     }
     .footer-cc {
         text-align: center;
@@ -1477,20 +1456,26 @@ cursor: pointer;
         margin-top: -12%;
         width: 46%;
     }
+    .btns-box {
+        display: flex;
+        margin-top: 67%;
+        width: 50%;
+        margin-left: 10%;
+    }
 }
 @media screen and (max-width:1024px){
     .h-logo {
         color: rgb(19, 19, 19);
-        margin-left: -6%;
-        margin-top: -15%;
-        width: 51%;
+        margin-left: -15%;
+        margin-top: -32%;
+        width: 183px;
     }
     .logout {
         font-weight: bold;
         color: black;
         font-size: 23px;
         text-decoration: none;
-        margin-left: 161%;
+       
     }
     .footer-cc {
         text-align: center;
@@ -1627,9 +1612,9 @@ cursor: pointer;
     }
     .h-logo {
         color: rgb(19, 19, 19);
-        margin-left: -6%;
-        margin-top: -17%;
-        width: 60%;
+        margin-left: -15%;
+        margin-top: -32%;
+        width: 183px;
     }
 }
 @media screen and (max-width:872px){
@@ -1640,19 +1625,13 @@ cursor: pointer;
         background-color: white;
         margin-top: 4%;
     }
-    .lista-nav-2 {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        margin-top: 3.2%;
-        margin-right: 25.42%;
-    }
+    
     .logout {
         font-weight: bold;
         color: black;
         font-size: 23px;
         text-decoration: none;
-        margin-left: 206%;
+       
     }
     .atividades-criadas {
         border: 5px solid rgb(240, 240, 240);
@@ -1753,9 +1732,9 @@ cursor: pointer;
     @media screen and (max-width:806px){
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -6%;
-            margin-top: -21%;
-            width: 74%;
+            margin-left: -9%;
+            margin-top: -30%;
+            width: 183px;
         }
         .btns-box {
             display: flex;
@@ -1763,19 +1742,13 @@ cursor: pointer;
             width: 50%;
             margin-left: -3%;
         }
-        .lista-nav-2 {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 3.6%;
-            margin-right: 21.42%;
-        }
+       
         .logout {
             font-weight: bold;
             color: black;
             font-size: 23px;
             text-decoration: none;
-            margin-left: 158%;
+           
         }
         .footer-cc {
             text-align: center;
@@ -1835,15 +1808,22 @@ cursor: pointer;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -6%;
-            margin-top: -24%;
-            width: 85%;
+            margin-left: -9%;
+            margin-top: -30%;
+            width: 183px;
         }
         .btns-box {
             display: flex;
             margin-top: 94%;
             width: 50%;
             margin-left: -3%;
+        }
+        .lista-nav-2 {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 4%;
+            margin-right: 26.42%;
         }
     }
     @media screen and (max-width:709px){
@@ -1905,6 +1885,16 @@ cursor: pointer;
             margin-top: 12%;
         }
     }
+    @media screen and (max-width:655px){
+        .logout {
+            font-weight: bold;
+            color: black;
+            font-size: 23px;
+            text-decoration: none;
+            margin-left: 0%;
+        }
+    }
+    
     @media screen and (max-width:654px){
         .footer {
             text-align: center;
@@ -1918,20 +1908,21 @@ cursor: pointer;
             display: flex;
             justify-content: center;
             margin-top: 4.5%;
-            margin-right: 16.42%;
+            margin-right: 29.42%;
+            margin-left: -7%;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -10%;
-            margin-top: -27%;
-            width: 97%;
+            margin-left: -9%;
+            margin-top: -30%;
+            width: 183px;
         }
         .logout {
             font-weight: bold;
             color: black;
             font-size: 23px;
             text-decoration: none;
-            margin-left: 97%;
+            margin-left: 0%;
         }
         .btns-box {
             display: flex;
@@ -1996,9 +1987,17 @@ cursor: pointer;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -10%;
-            margin-top: -36%;
-            width: 134%;
+            margin-left: -9%;
+            margin-top: -30%;
+            width: 183px;
+        }
+        .lista-nav-2 {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 4.5%;
+            margin-right: 29.42%;
+            margin-left: -13%;
         }
     }
     @media screen and (max-width:576px){
@@ -2007,7 +2006,7 @@ cursor: pointer;
             color: black;
             font-size: 23px;
             text-decoration: none;
-            margin-left: 68%;
+           
         }
         .btns-box {
             display: flex;
@@ -2017,12 +2016,7 @@ cursor: pointer;
         }
     }
     @media screen and (max-width:548px){
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -37%;
-            margin-top: -57%;
-            width: 204%;
-        }
+        
         .logout {
             font-weight: bold;
             color: black;
@@ -2035,7 +2029,8 @@ cursor: pointer;
             display: flex;
             justify-content: center;
             margin-top: 5.5%;
-            margin-right: 16.42%;
+            margin-right: 19.42%;
+            margin-left: -24%;
         }
         .btn-adicionar {
             background-color: rgba(194,255,250,1);
@@ -2067,6 +2062,12 @@ cursor: pointer;
             width: 50%;
             margin-left: -19%;
         }
+        .h-logo {
+            color: rgb(19, 19, 19);
+            margin-left: -19%;
+            margin-top: -30%;
+            width: 183px;
+        }
     }
     
     @media screen and (max-width:512px){
@@ -2078,9 +2079,9 @@ cursor: pointer;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -52%;
-            margin-top: -84%;
-            width: 305%;
+            margin-left: -19%;
+            margin-top: -30%;
+            width: 183px;
         }
     }
     @media screen and (max-width:488px){
@@ -2106,19 +2107,29 @@ cursor: pointer;
             display: flex;
             justify-content: center;
             margin-top: 5.5%;
-            margin-right: 11.42%;
+            margin-right: 15.42%;
+            margin-left: -30%;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -59%;
-            margin-top: -86%;
-            width: 299%;
+            margin-left: -19%;
+            margin-top: -30%;
+            width: 183px;
+        }
+        
+    }
+    @media screen and (max-width:461px){
+        .logout {
+            font-weight: bold;
+            color: black;
+            font-size: 19px;
+            text-decoration: none;
         }
     }
     @media screen and (max-width:460px){
         .container-lista, .container-adicionar {
             display: inline-block;
-            width: 87%;
+            width: 89%;
             margin-left: 0%;
             margin-top: -4%;
             vertical-align: top;
@@ -2128,7 +2139,7 @@ cursor: pointer;
             display: flex;
             justify-content: center;
             margin-top: 7.5%;
-            margin-right: 6.42%;
+            margin-right: 17.42%;
         }
         #data, #atividade {
             width: 70%;
@@ -2141,7 +2152,7 @@ cursor: pointer;
             font-weight: bold;
             margin-top: 10;
             margin-bottom: 10px;
-            margin-left: 10.5%;
+            margin-left: 8.5%;
             font-size: 20px;
         }
         .btn-adicionar {
@@ -2152,13 +2163,13 @@ cursor: pointer;
             font-family: 'Noto Sans Mono';
             cursor: pointer;
             font-size: 21px;
-            margin-left: 0%;
+            margin-left: -13%;
         }
         #h3Container {
             text-align: center;
             margin-top: 11%;
             font-size: 25px;
-            margin-left: 17%;
+            margin-left: 9%;
         }
         .atividades-criadas {
             border: 5px solid rgb(240, 240, 240);
@@ -2169,7 +2180,7 @@ cursor: pointer;
             height: 207px;
             padding: 5%;
             width: 87%;
-            margin: 5% 0 5% -10%;
+            margin: 4% 0 5% -14%;
         }
         .btns-box {
             margin-top: 69%;
@@ -2187,50 +2198,31 @@ cursor: pointer;
             margin-left: 0%;
             background-color: #fff;
         }
+        .texto-link-4 {
+            font-weight: bold;
+            color: black;
+            font-size: 19px;
+            text-decoration: none;
+        }
+        .texto-link-5 {
+            font-weight: bold;
+            color: black;
+            font-size: 19px;
+            text-decoration: none;
+        }
+        #h3Container-adicionar {
+            text-align: center;
+            font-size: 25px;
+            margin-left: -5%;
+        }
+        
         
     }
     @media screen and (max-width:461px){
         
     }
-    @media screen and (max-width:442px){
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -69%;
-            margin-top: -94%;
-            width: 351%;
-        }
-    }
-    @media screen and (max-width:425px){
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -105%;
-            margin-top: -130%;
-            width: 440%;
-        }
-        .lista-nav-2 {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 7.5%;
-            margin-right: 5.42%;
-        }
-        .btns-box {
-            margin-top: 74%;
-            margin-left: 2%;
-        }
-        .h2-footer {
-            margin-left: 25%;
-            font-size: 30px;
-            margin-top: -15%;
-        }
-        .logout {
-            font-weight: bold;
-            color: black;
-            font-size: 23px;
-            text-decoration: none;
-            margin-left: 5%;
-        }
-    }
+    
+    
     @media screen and (max-width:355px){
         #email-login, #senha-login, #email, #user, #nome, #senha::placeholder {
             font-size: 20px;
@@ -2246,110 +2238,61 @@ cursor: pointer;
         }
     }
     
-    @media screen and (max-width:410px){
-        .texto-link-4 {
-            font-weight: bold;
-            color: black;
-            font-size: 21px;
-            text-decoration: none;
-        }
-        .texto-link-5 {
-            font-weight: bold;
-            color: black;
-            font-size: 21px;
-            text-decoration: none;
-        }
-        .logout {
-            font-weight: bold;
-            color: black;
-            font-size: 21px;
-            text-decoration: none;
-            margin-left: 0%;
-        }
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -105%;
-            margin-top: -120%;
-            width: 404%;
-        }
-    }
-    
     
     @media screen and (max-width:390px){
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -105%;
-            margin-top: -129%;
-            width: 465%;
-        }
-        .btns-box {
-            margin-top: 80%;
-            margin-left: -2%;
-        }
-    }
-    @media screen and (max-width:375px){
-        .btns-box {
-            margin-top: 83%;
-            margin-left: -2%;
-        }
-        .h-logo {
-            color: rgb(19, 19, 19);
-            margin-left: -192%;
-            margin-top: -236%;
-            width: 772%;
-        }
-        .atividades-criadas {
-            border: 5px solid rgb(240, 240, 240);
-            border-radius: 20px;
-            background-color: white;
-            color: black;
-            display: flex;
-            height: 207px;
-            padding: 5%;
-            width: 87%;
-            margin: 5% 0 5% -17%;
-        }
-    }
-    @media screen and (max-width:320px){
         .nav-container {
             background-color: rgb(255, 255, 255);
             height: 100px;
             display: flex;
             justify-content: space-between;
             margin-bottom: 15px;
-            width: 109%;
+            width: 105%;
         }
+        .footer {
+            text-align: center;
+            width: 137%;
+            margin-left: -34%;
+            background-color: white;
+            margin-top: 14%;
+        }
+        
+        .lista-nav-2 {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 7.5%;
+            margin-right: 15.42%;
+            margin-left: -35%;
+        }        
+        .btns-box {
+            margin-top: 80%;
+            margin-left: -2%;
+        }
+    }
+    @media screen and (max-width:374px){
         .texto-link-4 {
             font-weight: bold;
             color: black;
-            font-size: 17px;
+            font-size: 16px;
             text-decoration: none;
         }
         .texto-link-5 {
             font-weight: bold;
             color: black;
-            font-size: 17px;
+            font-size: 16px;
             text-decoration: none;
         }
         .logout {
             font-weight: bold;
             color: black;
-            font-size: 17px;
+            font-size: 16px;
             text-decoration: none;
-            margin-left: 7%;
-        }
-        .lista-nav-2 {
-            list-style: none;
-            display: flex;
-            justify-content: center;
-            margin-top: 9.5%;
-            margin-right: 10.42%;
         }
         .h-logo {
             color: rgb(19, 19, 19);
-            margin-left: -395%;
-            margin-top: -401%;
-            width: 1423%;
+            margin-left: -24%;
+            margin-top: -30%;
+            width: 163px;
         }
         .container-lista, .container-adicionar {
             display: inline-block;
@@ -2357,25 +2300,6 @@ cursor: pointer;
             margin-left: 0%;
             margin-top: -7%;
             vertical-align: top;
-        }
-        #data, #atividade {
-            width: 70%;
-            padding: 15px;
-            border: none;
-            border-bottom: 1px solid black;
-            outline: none;
-            text-align: center;
-            color: rgb(19, 19, 19);
-            font-weight: bold;
-            margin-bottom: 10px;
-            margin-left: 8.5%;
-            font-size: 20px;
-        }
-
-        #h3Container-adicionar {
-            text-align: center;
-            font-size: 21px;
-            margin-left: -8%;
         }
         .btn-adicionar {
             background-color: rgba(194,255,250,1);
@@ -2385,43 +2309,47 @@ cursor: pointer;
             font-family: 'Noto Sans Mono';
             cursor: pointer;
             font-size: 21px;
-            margin-left: -2%;
-        }
-        #h3Container {
-            text-align: center;
-            margin-top: 12%;
-            margin-left: 18%;
-            font-size: 21px;
+            margin-left: -6%;
         }
         .btns-box {
-            margin-top: 99%;
-            margin-left: -10%;
-        }
-        .atividades-criadas {
-            border: 5px solid rgb(240, 240, 240);
-            border-radius: 20px;
-            background-color: white;
-            color: black;
-            display: flex;
-            height: 207px;
-            padding: 5%;
-            width: 87%;
-            margin: 5% 0 5% -18%;
-        }
-        .footer {
-            text-align: center;
-            width: 141%;
-            margin-left: -34%;
-            background-color: white;
-            margin-top: 14%;
+            margin-top: 84%;
+            margin-left: -2%;
         }
     }
+    @media screen and (max-width:354px){
+        .btns-box {
+            margin-top: 88%;
+            margin-left: -2%;
+        }
+        .nav-container {
+            background-color: rgb(255, 255, 255);
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 15px;
+            width: 106%;
+        }
+    }
+    @media screen and (max-width:330px){
+        .lista-nav-2 {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 7.5%;
+            margin-right: 13.42%;
+            margin-left: -39%;
+        }
+        .btns-box {
+            margin-top: 95%;
+            margin-left: -6%;
+        }
+    }
+    @media screen and (max-width:320px){
+
+       
+        
     
-            
-            
-        
-        
-        
+        }
         
         
         
@@ -2496,6 +2424,8 @@ cursor: pointer;
                 margin-right: 40.5%;
             }
         }
+      
+        
         
         @media screen and (max-width:768px){
             .container-login {
@@ -2533,13 +2463,7 @@ cursor: pointer;
                 font-size: 28px;
                 margin-top: 1%;
             }
-            .logout {
-                font-weight: bold;
-                color: black;
-                font-size: 23px;
-                text-decoration: none;
-                margin-left: 58%;
-            }
+           
             .lista-nav {
                 list-style: none;
                 display: flex;
@@ -3164,7 +3088,7 @@ cursor: pointer;
         color: black;
         font-size: 13px;
         text-decoration: none;
-        margin-left: 1%;
+       
     }
     #h3Container-adicionar {
         text-align: center;
