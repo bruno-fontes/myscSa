@@ -11,53 +11,61 @@
 </head>
 
 <body>
-
-    <div id="pagina">
-        <div class="nav-container">
-            <h1> <img class="h-logo2"  src="MYSC.svg" width="250"></h1>
-            <ul class="lista-nav">
-                <li><a class='texto-link-2' href="index.html">Home</a></li>
-                <li><a class='texto-link-3' href="criarconta.html">Login</a></li>
-                
-            </ul>
-        </div>
+    <header class="header">
+        <img class="h-logo" src="MYSC.svg">
+        <nav class="lista-nav">
+            <a class='texto-link' href="index.html">Home</a>
+            <a class="texto-link" href="criarconta.html">Login</a>
+            <a class="logout" href="criarconta.html">Logout</a>
+        </nav>
+    </header>
+    <main>
         <div class="container-login" id="container-login">
+
             <h3 id="h3Container-cc1">Login</h3>
-            <input type="text" id="email-login" placeholder="Email"><br>
-            <input type="password" id="senha-login" placeholder="Senha"><br>
-            <div class="btns-div-3">
+
+            <div class="inputs">
+                <input type="text" class="inpt-login" id="email-login" placeholder="Email">
+                <input type="password" class="inpt-login" id="senha-login" placeholder="Senha">
+            </div>
+            <div class="btns-div">
                 <button class="btn-logar" onclick="logar()">Logar</button>
                 <button class="btn-nao-possuo-conta" onclick="irCadastro()">Não possuo conta</button>
-                
+
 
             </div>
         </div>
         <div class="container-cadastro" id="container-cadastro">
             <h3 id="h3Container-cc2">Cadastrar-se</h3>
-            <input type="text" id="email" placeholder="Email"><br>
-            <input type="text" id="nome" placeholder="Nome"><br>
-            <input type="text" id="user" placeholder="Usuário">
-            <input type="password" id="senha" placeholder="Senha">
-            <br><br><br>
-            <div class="btns-div-2">
+            <div class="inputs">
+                <input type="text" class="inpt-login" id="email" placeholder="Email">
+                <input type="text" class="inpt-login" id="nome" placeholder="Nome">
+                <input type="text" class="inpt-login" id="user" placeholder="Usuário">
+                <input type="password" class="inpt-login" id="senha" placeholder="Senha">
+            </div>
+            <div class="btns-div">
                 <button class="btn-criar-conta2" onclick="criarConta()">Criar conta</button>
                 <button class="btn-ja-possuo-conta" onclick="voltarLogin()">Já possuo conta</button>
+
             </div>
-            
-            <script src="js/script.js"></script>
+        </div>
+
+        <script src="js/script.js"></script>
 
         </div>
-        <div class="footer-cc">
-            <h2 class="h2-footer">CONTATO</h2>
+    </main>
+    <footer class="footer-login">
+        <h2 class="h2-footer">CONTATO</h2>
+
+        <div class="contatos-footer">
+            <a class="a-footer" href="https://twitter.com/">Twitter</a>
             <br>
-            <div class="contatos-footer">
-                <p class="p-footer"> Email: mysc.site@gmail.com</p>
-               
-                <p class="p-footer">Telefone: 94883693</p>
-            </div>
-                
+            <a class="a-footer" href="https://www.instagram.com">Instagram</a>
+            <p class="p-footer"> Email: mysc.site@gmail.com</p>
         </div>
-    </div>
+
+    </footer>
+
 </body>
 
 </html>

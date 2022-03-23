@@ -13,62 +13,68 @@
 <body>
 
 
-    <div id="pagina">
-        <div class="nav-container">
-            <h1> <img class="h-logo" src="MYSC.svg" width="250"></h1></a>
-            <ul class="lista-nav-2">
-                <li><a class='texto-link-4' href="index.html">Home</a></li>
-                <li><a class='texto-link-5' href="ListaAtividade.html">Atividades</a></li>
-                <li><a class="logout" href="criarconta.html">Logout</a></li>
-            </ul>
-            
-            
-            
+
+    <header class="header">
+        <img class="h-logo" src="MYSC.svg">
+        <nav class="lista-nav">
+            <a class='texto-link' href="index.html">Home</a>
+            <a class="texto-link" href="criarconta.html">Login</a>
+            <a class="logout" href="criarconta.html">Logout</a>
+        </nav>
+    </header>
+    <div class="double-containers">
+
+
+        <div class="container-adicionar">
+            <h3 id="h3Container-adicionar">Adicione sua Atividade</h3>
+            <div class="inputs">
+                <input type="text" id="atividade" class="inpt-login" placeholder="Atividade">
+                <input type="text" id="data" class="inpt-login" placeholder="Data">
+            </div>
+            <div class="btns-div">
+                <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
+            </div>
         </div>
-        
-            <div class="container-adicionar">
-                <h3 id="h3Container-adicionar">Adicione sua Atividade</h3>
-                <input type="text" id="atividade" placeholder="Atividade">
-                <input type="text" id="data" class="input-data" placeholder="Data">
-                
-                <div class="btns-div">
-                     <button class="btn-adicionar" type="button" onclick="addAtividade()">Adicionar</button>
-                </div>
-            </div>
-            <div class="container-lista" id="container-lista">
-                <h3 id="h3Container">Suas Atividades:</h3>
-                <div class="paragrafo">
-                    <ul id='lista-atividade' class="lista-atividade">
-              
-                    </ul>
-                </div> 
-               
 
-                <br>
-                <br>
-                <br>
+
+
+
+
+
+        <div class="container-lista" id="container-lista">
+            <h3 id="h3Container">Suas Atividades:</h3>
+            <div class="paragrafo">
+                <ul id='lista-atividade' class="lista-atividade">
+
+                </ul>
             </div>
 
-        
+        </div>
 
     </div>
+
+
+
+
+
+
 
 
     <script src="js/script.js"></script>
-    
 
     </div>
-    <div class="footer">
+    <footer class="footer">
         <h2 class="h2-footer">CONTATO</h2>
-        <br>
+
         <div class="contatos-footer">
+            <a class="a-footer" href="https://twitter.com/">Twitter</a>
+            <br>
+            <a class="a-footer" href="https://www.instagram.com">Instagram</a>
             <p class="p-footer"> Email: mysc.site@gmail.com</p>
-           
-            <p class="p-footer">Telefone: 94883693</p>
         </div>
-            
-    </div>
-    
+
+    </footer>
+
 </body>
 
 </html>
