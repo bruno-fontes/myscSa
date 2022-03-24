@@ -300,6 +300,12 @@ li{
         margin-top: 20px;
         margin-left: 23px;
     }
+    #iptAtividade0 {
+        width: 530%;
+    }
+    #iptDataAtividade0 {
+        width: 530%;
+    }
  }
  @media screen and (max-width:656px){
     .atividades-criadas {
@@ -346,14 +352,7 @@ li{
         border-radius: 0px 0px 20px 20px;
         margin-bottom: 100px;
     }
-    .container-lista {
-        width: 40%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 30%;
-        margin-top: -81px;
-    }
+   
     .atividades-criadas {
         border: 5px solid rgb(240, 240, 240);
         border-radius: 20px;
@@ -388,11 +387,19 @@ li{
         margin-bottom: 65px;
         margin-top: -54px;
     }
+    .container-lista {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -81px;
+    }
  }
  @media screen and (max-width:496px){
     .titulo-introduçao {
         font-size: 21px;
     }
+
  }
 
  @media screen and (max-width:434px){
@@ -471,19 +478,7 @@ li{
     }
  }
  @media screen and (max-width:346px){
-    .atividades-criadas {
-        border: 5px solid rgb(240, 240, 240);
-        border-radius: 20px;
-        background-color: white;
-        color: black;
-        display: flex;
-        width: 50%;
-        height: 200px;
-        padding: 20px;
-        width: 132%;
-        margin-top: 20px;
-        margin-left: -18px;
-    }
+    
     @media screen and (max-width:324px){
         .titulo-introduçao {
             font-size: 14px;
