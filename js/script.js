@@ -16,28 +16,28 @@ let atividade = document.getElementById("atividade")
 let pAtividades = document.getElementById('atividades')
  
 
-
+ //função que cria e registra atividades\\
 function addAtividade() {
-    //pega os itens do ls
+  
     atividadeArray = JSON.parse(localStorage.getItem("atividade"));
     dataAtividadeArray = JSON.parse(localStorage.getItem('data_atividade'))
-    //se não houver item
+  
     if (atividadeArray == null){
-        //recria os arrays
+     
         let atividadeArray = [];
         let dataAtividadeArray = [];
-        //empurra para dentro desses arrays os valores do inputs
+        
         atividadeArray.push(atividade.value);
         dataAtividadeArray.push(dataAtividade.value);
-        //empurra localstorage
+       
         localStorage.setItem('atividade' ,JSON.stringify(atividadeArray));
         localStorage.setItem('data_atividade' ,JSON.stringify(dataAtividadeArray));
-        // caso haja item
+      
     }else{
-        //empurra para dentro desses arrays os valores do inputs
+    
         atividadeArray.push(atividade.value);
         dataAtividadeArray.push(dataAtividade.value);
-        //empurra localstorage
+       
         localStorage.setItem('atividade' ,JSON.stringify(atividadeArray));
         localStorage.setItem('data_atividade' ,JSON.stringify(dataAtividadeArray));
     }
@@ -47,7 +47,7 @@ function addAtividade() {
     alert("Atividade adicionada.");
     window.location.reload();
 }
-
+//função que mostra as atividades criada na lista//
 function mostraLista(){
     atividadeArray = JSON.parse(localStorage.getItem("atividade"));
     dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
@@ -96,15 +96,8 @@ function mostraLista(){
 }
 
  mostraLista();
-        
-        
-function deletarTudo() {
-    localStorage.clear();
-    alert("Atividades removidas.")
-    location.reload()
-}
 
-
+//função aonde o usuario pode criar uma conta utilizando o localStorage//
 function criarConta() {
     emailArray = JSON.parse(localStorage.getItem('email'))
     nomeArray = JSON.parse(localStorage.getItem('nome'))
@@ -149,7 +142,7 @@ function criarConta() {
         	
 }
 
-
+//função que o usuario utilizada a conta criada para logar no site//
 function logar() {
     emailArray = JSON.parse(localStorage.getItem('emailCadastro'))
     senhaArray = JSON.parse(localStorage.getItem('senhaCadastro'))
@@ -190,7 +183,7 @@ function logar() {
         
 }
         
-        
+//função que faz o display aparecer quando o usuario aperta no botao "não possuo conta"//
 function irCadastro() {
     let divLogin = document.getElementById('container-login')
     let divCadastro = document.getElementById('container-cadastro')
@@ -198,7 +191,7 @@ function irCadastro() {
     divCadastro.style.display = 'block'
 }
 
-
+//função que faz o display aparecer quando o usuario aperta no botão "Já possuo conta"//
 function voltarLogin() {
     let divLogin = document.getElementById('container-login')
     let divCadastro = document.getElementById('container-cadastro')
@@ -208,12 +201,16 @@ function voltarLogin() {
     dataAtividade.value = ""
     atividade.value = ""
 }
+
+//função que direciona para a pagina de login//
 function irPaginaLogin(){
     window.location.href="criarConta.html"
 }
+
+//função que exclui os registro de atividdade//
 function excluir(indice){
 
-    // Pega valores do LocalStorage (se tiver) e armazena
+    
     atividadeArray = JSON.parse(localStorage.getItem("atividade"));
     dataAtividadeArray = JSON.parse(localStorage.getItem("data_atividade"));
     
@@ -224,7 +221,7 @@ function excluir(indice){
         dataAtividadeArray.splice(indice, 1)
 
        
-       alert("atividade excluído!")
+       alert("atividade excluída!")
 
      
        localStorage.setItem("atividade", JSON.stringify(atividadeArray))
@@ -245,6 +242,8 @@ let btnConfirm = document.getElementById('btnConfirm');
 let iptAtividade = '';
 let iptDataAtividade = '';
 
+
+//função que edita o registro de atividade//
 function editarTarefa(indice){
     
     for (let i = 0; i < atividadeArray.length; i++) {
@@ -273,7 +272,7 @@ function editarTarefa(indice){
 }
 
 
-
+//função que confirma e edição escrita pelo usuario//
 function confirmaEdicao(indice){
     
     for (let i = 0; i < atividadeArray.length; i++) {
@@ -296,16 +295,3 @@ function confirmaEdicao(indice){
     iptAtividade = '';
     iptDataAtividade = '';
 }
-
-
-
-function sumir(){
-    atividadeArray = JSON.parse(localStorage.getItem("atividade"));
-    dataAtividadeArray = JSON.parse(localStorage.getItem('data_atividade'))
-    let containerLista = document.getElementById('container-lista');
-    if(atividadeArray == ""){
-        containerLista.style.overflowY = 'unset';
-    }
-}
-sumir()
-
