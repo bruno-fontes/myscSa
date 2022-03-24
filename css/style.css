@@ -367,12 +367,34 @@ li{
         margin-top: 20px;
         margin-left: 2px;
     }
+    .container-login {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        padding: 30px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #fff;
+        margin-bottom: 150px;
+        height: 261px;
+        margin-top: -51px;
+    }
+    .container-cadastro {
+        display: none;
+        margin: 0 auto;
+        width: 100%;
+        padding: 30px;
+        border-radius: 0px 0px 10px 10px;
+        background-color: #fff;
+        margin-bottom: 65px;
+        margin-top: -54px;
+    }
  }
  @media screen and (max-width:496px){
     .titulo-introduçao {
         font-size: 21px;
     }
  }
+
  @media screen and (max-width:434px){
     .h-logo{
     display: none;
@@ -500,8 +522,7 @@ li{
 
 
 
-=======
->>>>>>> d0f2457e2238f065c8a2a7c37faccd00b4d507a3
+
 .container-listaADM{
     background-color: rgb(255, 255, 255);
     padding: 2% 0;
