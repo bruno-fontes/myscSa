@@ -41,6 +41,7 @@ li{
 .h-logo{
    height: 200px; 
    margin-top: 30px;
+
    
 }
 .logout{
@@ -239,9 +240,12 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
-
+.paragrafo{
+    width:100%;
+ }
 
 
 #h3Container-adicionar {
@@ -266,7 +270,9 @@ li{
     display: flex;
     margin-top: 120px;
     justify-content: space-evenly;
-    margin-right: 120px;
+    margin-right: 150px;
+    width: 100%;
+    
 }
 @media screen and (max-width:2560px){
     .footer {
@@ -283,8 +289,199 @@ li{
       margin-top: 120px;
    }
 }
-
-
+@media screen and (max-width:907px){
+    .btns-box {
+        display: flex;
+        margin-top: 120px;
+        justify-content: space-evenly;
+        margin-right: 150px;
+        width: 100%;
+        margin-left: -25px;
+    }
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 23px;
+    }
+ }
+ @media screen and (max-width:656px){
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        width: 80%;
+        margin-top: 20px;
+        margin-left: 19px;
+    }
+    .btns-box {
+        display: flex;
+        margin-top: 120px;
+        justify-content: space-evenly;
+        margin-right: 150px;
+        width: 100%;
+        margin-left: -19px;
+    }
+    .titulo-introduçao{
+        font-size: 25px;
+    }
+    .p-home {
+      
+        font-size: 10px;
+    }
+ }
+ @media screen and (max-width:600px){
+    .double-containers {
+        display: flex;
+        flex-direction: column;
+        margin-top: -51px;
+        width: 100%;
+    }
+    .container-adicionar {
+        background-color: white;
+        width: 100%;
+        vertical-align: top;
+        height: 300px;
+        border-radius: 0px 0px 20px 20px;
+        margin-bottom: 100px;
+    }
+    .container-lista {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30%;
+        margin-top: -81px;
+    }
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: 2px;
+    }
+ }
+ @media screen and (max-width:496px){
+    .titulo-introduçao {
+        font-size: 21px;
+    }
+ }
+ @media screen and (max-width:434px){
+    .h-logo{
+    display: none;
+    }
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        width: 100%;
+        margin-top: 20px;
+        margin-left: -4px;
+    }
+    .btn-editar {
+        background-color: grey;
+        margin-top: 4%;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+    .btn-excluir {
+        background-color: red;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        margin-top: 4%;
+        width: 70px;
+        height: 30px;
+        font-size: 10px;
+    }
+ }
+ @media screen and (max-width:424px){
+    .titulo-introduçao {
+        font-size: 17px;
+    }
+    .p-home {
+        font-size: 9px;
+    }
+ }
+ @media screen and (max-width:398px){
+    .btns-box {
+        display: flex;
+        margin-top: 120px;
+        justify-content: space-evenly;
+        margin-right: 150px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .titulo-lista {
+        margin-left: 4%;
+        font-size: 13px;
+    }
+    .p-itemLista {
+        margin-left: 4%;
+        font-size: 11px;
+    }
+    .data-task-box{
+        font-size: 13px;
+    }
+ }
+ @media screen and (max-width:362px){
+    .titulo-introduçao {
+        font-size: 15px;
+    }
+    .p-home {
+        font-size: 8px;
+    }
+ }
+ @media screen and (max-width:346px){
+    .atividades-criadas {
+        border: 5px solid rgb(240, 240, 240);
+        border-radius: 20px;
+        background-color: white;
+        color: black;
+        display: flex;
+        width: 50%;
+        height: 200px;
+        padding: 20px;
+        width: 132%;
+        margin-top: 20px;
+        margin-left: -18px;
+    }
+    @media screen and (max-width:324px){
+        .titulo-introduçao {
+            font-size: 14px;
+        }
+        .p-home {
+            font-size: 7px;
+        }
+    }
+ }
 
 
 
