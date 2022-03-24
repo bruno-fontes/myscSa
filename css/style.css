@@ -151,14 +151,7 @@ li{
     font-family: Noto Sans Mono;
     text-decoration: none;
     color: black;
-}
-
-
-   
-    
-
-
-    
+}    
 .p-home{
    font-family: Noto Sans Mono;
 }
@@ -169,8 +162,6 @@ li{
 #h3Container-cc2{
     text-align: center;
 }
-
-
 .inputs{
     display: flex;
     flex-direction: column;
@@ -223,8 +214,6 @@ li{
     justify-content: space-around;
     
 }
-
-
 .container-adicionar{
     background-color: white;
     width: 40%;
@@ -241,9 +230,6 @@ li{
     align-items: center;
 
 }
-
-
-
 #h3Container-adicionar {
     text-align: center;
     margin-top: 47px;
@@ -261,7 +247,6 @@ li{
     margin-top: 20px;
     margin-left: 28px;
 }
-
 .btns-box {
     display: flex;
     margin-top: 120px;
@@ -277,43 +262,11 @@ li{
     }
 }
 
-
 @media screen and (max-width:1440px){
    .footer{
       margin-top: 120px;
    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-listaADM{
     background-color: rgb(255, 255, 255);
     padding: 2% 0;
@@ -329,9 +282,6 @@ li{
     margin: 5% 0 2% 25%;
 }
     
-
-
-
 .btn-adicionar{
     background-color: rgba(194,255,250,1);
     border: none;
@@ -352,19 +302,11 @@ li{
     padding: 4%;
     border-radius: 10%;
     cursor: pointer;
-    font-family: 'Noto Sans Mono';
-    
-    
-    
+    font-family: 'Noto Sans Mono';   
 }
 .btn-deletar:hover{
     background-color: rgb(130, 202, 196) ;
 }
-
-
-
- 
- 
 #h3Container{
     text-align: center;
     margin-top: 5%;
@@ -381,8 +323,6 @@ li{
     
     
 }
-
-
 .btn-nao-possuo-conta{
     background-color: rgba(194,255,250,1);
     border: none;
@@ -424,16 +364,6 @@ li{
     padding-left: 20px;
     
 }
-
-
-
-    
-
-
-
-
-
-
 .btn-logar{
     background-color: rgba(194,255,250,1);
     border: none;
