@@ -363,6 +363,13 @@ li{
         text-align: center;
         margin-bottom: 93px;
     }
+    .container-lista {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 447px;
+    }
     
 }
 
@@ -424,6 +431,15 @@ li{
     .p-home {
       
         font-size: 10px;
+    }
+ }
+ @media screen and (max-width:768px){
+    .container-lista {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 458px;
     }
  }
  @media screen and (max-width:600px){
