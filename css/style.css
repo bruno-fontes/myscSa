@@ -22,15 +22,15 @@ li{
 }
 
 
-.header{
-   display: flex;
-   align-items: center;
-   flex-direction: row;
-   background-color: white;
-   justify-content: space-around;
-   height: 100px;
-   margin-bottom: 50px;
-   
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-around;
+    height: 100px;
+    margin-bottom: 50px;
+    width: 100%;
 }
 .lista-nav{
    display: flex;
@@ -258,11 +258,16 @@ li{
 .container-listaADM {
     background-color: rgb(255, 255, 255);
     padding: 2% 0;
-    width: 80%;
-    margin-left: 10%;
+    width: 70%;
+    margin-left: 15%;
     border-radius: 10px;
     text-align: center;
     margin-bottom: 93px;
+}
+.container-adm{
+    display: flex;
+    flex-direction: column;
+    
 }
 .h1-adm{
     text-align: center;
@@ -309,6 +314,13 @@ li{
         text-align: center;
         margin-bottom: 273px;
     }
+    .container-lista {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 156px;
+    }
 }
 @media screen and (max-width:1366px){
     .icon-button {
@@ -345,8 +357,8 @@ li{
     .container-listaADM {
         background-color: rgb(255, 255, 255);
         padding: 2% 0;
-        width: 80%;
-        margin-left: 10%;
+        width: 70%;
+        margin-left: 15%;
         border-radius: 10px;
         text-align: center;
         margin-bottom: 93px;
@@ -524,6 +536,10 @@ li{
         height: 30px;
         font-size: 10px;
     }
+    .h1-adm {
+        text-align: center;
+        font-size: 24px;
+    }
  }
  @media screen and (max-width:424px){
     .titulo-introduçao {
@@ -580,8 +596,7 @@ li{
     width: 70%;
     display: block;
     margin: 0 auto;
-    height: 300px;
-}
+    }
     
 .btn-adicionar{
     background-color: rgba(194,255,250,1);
@@ -721,9 +736,10 @@ li{
         
          
         .lista-atividade{
-            margin-bottom: 20%;
+           height: none;
             width: 70%;
             margin-left: 15%;
+            margin-bottom: 30px;
             
         }
         
