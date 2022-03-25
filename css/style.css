@@ -574,7 +574,16 @@ li{
         width: 100%;
         margin-left: 0px;
     }
+    .titulo-lista {
+        margin-left: 4%;
+      
+    }
+    .p-itemLista {
+        margin-left: 4%;
+        
+    }
    
+ }
  @media screen and (max-width:362px){
     .titulo-introduçao {
         font-size: 15px;
